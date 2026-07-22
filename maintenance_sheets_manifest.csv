@@ -1,0 +1,180 @@
+OriginalPath,Station,Year,CopyName,Status,Reason
+\\geodata\Ice\FIELDWORK\2012\04-2012 ZAK Maintenance\ZAK_M Maintenance sheet.pdf,ZAK_M,2012,ZAK_M_2012.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2012\04-2012 ZAK Maintenance\ZAK_T Maintenance sheet.pdf,ZAK_T,2012,ZAK_T_2012.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2013\Zackenberg (ZAK) Spring\Maintenance sheets\ZAK_M Maintenance sheet.pdf,ZAK_M,2013,ZAK_M_2013.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2013\Zackenberg (ZAK) Spring\Maintenance sheets\ZAK_T Maintenance sheet.pdf,ZAK_T,2013,ZAK_T_2013.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\QAS\Summer\QAS_A\maint_sheet.pdf,QAS_A,2014,QAS_A_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\QAS\Summer\QAS_L\Maint_sheet.pdf,QAS_L,2014,QAS_L_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\QAS\Summer\QAS_U\Maint_sheet.pdf,QAS_U,2014,QAS_U_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\SCO\SCO-L\SCO-L maintenance sheet.pdf,SCO_L,2014,SCO_L_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\SCO\SCO-U\SCO-U maintenance sheet.pdf,SCO_U,2014,SCO_U_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\TAS+MIT\MIT\MIT maintenance sheet_2014.pdf,MIT,2014,MIT_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\TAS+MIT\TAS-A\TAS-A maintenance sheet.pdf,TAS_A,2014,TAS_A_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\TAS+MIT\TAS-L\TAS-L maintenance sheet.pdf,TAS_L,2014,TAS_L_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2014\TAS+MIT\TAS-U\TAS-U maintenance sheet.pdf,TAS_U,2014,TAS_U_2014.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2015\QAS\Summer\Field Report and Maintenance sheets\maint-sheets.pdf,,2015,,Skip-Ambiguous,No station enumerated in filename/path (generic QAS Summer combined file)
+\\geodata\Ice\FIELDWORK\2015\TAS\Field Report and Maintenance sheets\Maintenance sheet MIT august 2015.pdf,MIT,2015,MIT_2015.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2015\TAS\Field Report and Maintenance sheets\Maintenance sheet TAS_A august 2015.pdf,TAS_A,2015,TAS_A_2015.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2015\TAS\Field Report and Maintenance sheets\Maintenance sheet TAS_L august 2015.pdf,TAS_L,2015,TAS_L_2015.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2015\TAS\Field Report and Maintenance sheets\Maintenance sheet TAS_U August 2015.pdf,TAS_U,2015,TAS_U_2015.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2015\ZAK\maint_sheets.pdf,ZAK_M,2015,ZAK_M_2015.pdf,Copied,Combined ZAK file with no explicit sub-station; copied for both known ZAK stations
+\\geodata\Ice\FIELDWORK\2015\ZAK\maint_sheets.pdf,ZAK_T,2015,ZAK_T_2015.pdf,Copied,Combined ZAK file with no explicit sub-station; copied for both known ZAK stations
+\\geodata\Ice\FIELDWORK\2016\KPC\Maint sheets\maint_sheets.pdf,KPC_L,2016,KPC_L_2016.pdf,Copied,Combined KPC file with no explicit sub-station; copied for both known KPC stations
+\\geodata\Ice\FIELDWORK\2016\KPC\Maint sheets\maint_sheets.pdf,KPC_U,2016,KPC_U_2016.pdf,Copied,Combined KPC file with no explicit sub-station; copied for both known KPC stations
+\\geodata\Ice\FIELDWORK\2017\QAS\August\maint_sheet_QAS_M.pdf,QAS_M,2017,QAS_M_2017.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2017\QAS\August\maint_sheet_QAS_U.pdf,QAS_U,2017,QAS_U_2017.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2019\KPC\KPC_L_maintenance_sheet.pdf,KPC_L,2019,KPC_L_2019.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2019\KPC\KPC_U_maintenance_sheet.pdf,KPC_U,2019,KPC_U_2019.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2019\TAS+MIT\Field_report\TAS-A\TAS-A_maintenance_sheet_May2019.pdf,TAS_A,2019,TAS_A_2019.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\GCN-S\CP1\CP1 fieldbook notes and maintenance sheet 17 Jun 2021.pdf,CP1,2021,CP1_2021.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\GCN-S\DY2\DY2 fieldbook notes and maintenance sheet 15 Jun 2021.pdf,DY2,2021,DY2_2021.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\GCN-S\NSE\NSE fieldbook notes and maintenance sheet 20 Jun 2021 B other side of maintenance sheet had no entries.pdf,NSE,2021,NSE_2021.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\GCN-S\NSE\NSE fieldbook notes and maintenance sheet 20 Jun 2021.pdf,NSE,2021,NSE_2021_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\GCN-S\SDL\SDL fieldbook notes and maintenance sheet 14 Jun 2021 fieldbook.pdf,SDL,2021,SDL_2021.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\GCN-S\SDL\SDL fieldbook notes and maintenance sheet 14 Jun 2021.pdf,SDL,2021,SDL_2021_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\GCN-S\SDM\SDM fieldbook notes and maintenance sheet 21 Jun 2021.pdf,SDM,2021,SDM_2021.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\QAS\QAS L M U Maintenance sheets 31 Aug - 2 Sep 2021.pdf,QAS_L,2021,QAS_L_2021.pdf,Copied,Combined L/M/U file; copied once per station named in filename
+\\geodata\Ice\FIELDWORK\2021\QAS\QAS L M U Maintenance sheets 31 Aug - 2 Sep 2021.pdf,QAS_M,2021,QAS_M_2021.pdf,Copied,Combined L/M/U file; copied once per station named in filename
+\\geodata\Ice\FIELDWORK\2021\QAS\QAS L M U Maintenance sheets 31 Aug - 2 Sep 2021.pdf,QAS_U,2021,QAS_U_2021.pdf,Copied,Combined L/M/U file; copied once per station named in filename
+\\geodata\Ice\FIELDWORK\2021\TAS\MIT\MaintenanceSheet_MIT_2021.pdf,MIT,2021,MIT_2021.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\TAS\TAS_A\MaintenanceSheet_TasA2021.pdf,TAS_A,2021,TAS_A_2021.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\TAS\TAS_A\MaintenanceSheet_TasA2021_2.pdf,TAS_A,2021,TAS_A_2021_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2021\TAS\TAS_L\MaintenanceSheet_TASL_2021_2.pdf,TAS_L,2021,TAS_L_2021.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\GC_NET_E\NAE\Maintenance_sheet_NAE_May2022.pdf,NAE,2022,NAE_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\GC_NET_E\TUN\Maintenance_sheet_TUN_May2022.pdf,TUN,2022,TUN_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\GC_NET_W\CEN\Maintenance_sheet_CEN_June2022.pdf,CEN2,2022,CEN2_2022.pdf,Copied,Plain 'CEN'; CEN1 deactivated 2021 so defaulted to CEN2 per user guidance
+\\geodata\Ice\FIELDWORK\2022\GC_NET_W\CP1\Maintenance_sheet_CP1_June2022.pdf,CP1,2022,CP1_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\GC_NET_W\DY2\Maintenance_sheet_DY2_June2022.pdf,DY2,2022,DY2_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\GC_NET_W\HUM\Maintenance_sheet_HUM_June2022.pdf,HUM,2022,HUM_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\GC_NET_W\NEM\Maintenance_sheet_NEM_June2022.pdf,NEM,2022,NEM_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\GC_NET_W\NSE\Maintenance_sheet_NSE_June2022.pdf,NSE,2022,NSE_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\GC_NET_W\SDL\Maintenance_sheet_SDL_June2022.pdf,SDL,2022,SDL_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\JAR SWC\JAR maintenance sheet - 2022 08 03 - 2 pages.pdf,JAR,2022,JAR_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\JAR SWC\JAR_O maintenance sheet - 2022 08 03 - 2 pages.pdf,JAR_O,2022,JAR_O_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\JAR SWC\SWC maintenance sheet - 2022 08 02 - 2 pages.pdf,SWC,2022,SWC_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\JAR SWC\SWC_O maintenance sheet - 2022 08 02 - 2 pages.pdf,SWC_O,2022,SWC_O_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\KPC\KPC_L_new\Maintenance_sheet_KPC-L_New_AWS_May2022.pdf,KPC_Lv3,2022,KPC_Lv3_2022.pdf,Copied,"""New AWS"" assumed to be the v3 upgrade"
+\\geodata\Ice\FIELDWORK\2022\KPC\KPC_L_old\Maintenance_sheet_KPC-L_Old_AWS_May2022.pdf,KPC_L,2022,KPC_L_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\KPC\KPC_U_new\Maintenance_sheet_KPC-U_New_AWS_May2022.pdf,KPC_Uv3,2022,KPC_Uv3_2022.pdf,Copied,"""New AWS"" assumed to be the v3 upgrade"
+\\geodata\Ice\FIELDWORK\2022\KPC\KPC_U_old\Maintenance_sheet_KPC-U_Old_AWS_May2022.pdf,KPC_U,2022,KPC_U_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\QAS\QAS L M U B Stakes Apres maintenance sheets.pdf,QAS_L,2022,QAS_L_2022.pdf,Copied,Combined L/M/U file (B = stakes not a station); copied once per station named
+\\geodata\Ice\FIELDWORK\2022\QAS\QAS L M U B Stakes Apres maintenance sheets.pdf,QAS_M,2022,QAS_M_2022.pdf,Copied,Combined L/M/U file (B = stakes not a station); copied once per station named
+\\geodata\Ice\FIELDWORK\2022\QAS\QAS L M U B Stakes Apres maintenance sheets.pdf,QAS_U,2022,QAS_U_2022.pdf,Copied,Combined L/M/U file (B = stakes not a station); copied once per station named
+\\geodata\Ice\FIELDWORK\2022\TAS\Data\TAS-A\Maintenance_sheet_TAS_A.pdf,TAS_A,2022,TAS_A_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2022\TAS\Data\TAS-L\Maintenance_sheet_TAS_L.pdf,TAS_L,2022,TAS_L_2022.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\CP1\Maintenance sheets\CP1_maint_sheet_p1.jpg,CP1,2023,CP1_2023.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\CP1\Maintenance sheets\CP1_maint_sheet_p2.jpg,CP1,2023,CP1_2023_2.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\EGP\Maintenance sheets\EGR_maint_sheet_p1.jpg,EGP,2023,EGP_2023.jpg,Copied,"""EGR"" misspelling of EGP"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\EGP\Maintenance sheets\EGR_maint_sheet_p2.jpg,EGP,2023,EGP_2023_2.jpg,Copied,"""EGR"" misspelling of EGP"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\NAE\Maintenance sheets\NASA-E_maint_sheet_old_p1.jpg,NAE,2023,NAE_2023.jpg,Copied,"""NASA-E"" old name for NAE; ""_old"" variant"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\NAE\Maintenance sheets\NASA-E_maint_sheet_old_p2.jpg,NAE,2023,NAE_2023_2.jpg,Copied,"""NASA-E"" old name for NAE; ""_old"" variant"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\NAE\Maintenance sheets\NASA-E_maint_sheet_p1.jpg,NAE,2023,NAE_2023_3.jpg,Copied,"""NASA-E"" old name for NAE"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\NAE\Maintenance sheets\NASA-E_maint_sheet_p2.jpg,NAE,2023,NAE_2023_4.jpg,Copied,"""NASA-E"" old name for NAE"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\NAU\Maintenance sheets\NASA-U_maint_sheet_old_p1.jpg,NAU,2023,NAU_2023.jpg,Copied,"""NASA-U"" old name for NAU; ""_old"" variant"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\NAU\Maintenance sheets\NASA-U_maint_sheet_old_p2.jpg,NAU,2023,NAU_2023_2.jpg,Copied,"""NASA-U"" old name for NAU; ""_old"" variant"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\NAU\Maintenance sheets\NASA-U_maint_sheet_p1.jpg,NAU,2023,NAU_2023_3.jpg,Copied,"""NASA-U"" old name for NAU"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\NAU\Maintenance sheets\NASA-U_maint_sheet_p2.jpg,NAU,2023,NAU_2023_4.jpg,Copied,"""NASA-U"" old name for NAU"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\TUN\Maintenance sheets\TUNU-N_maint_sheet_old_p1.jpg,TUN,2023,TUN_2023.jpg,Copied,"""TUNU-N"" old name for TUN; ""_old"" variant"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\TUN\Maintenance sheets\TUNU-N_maint_sheet_old_p2.jpg,TUN,2023,TUN_2023_2.jpg,Copied,"""TUNU-N"" old name for TUN; ""_old"" variant"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\TUN\Maintenance sheets\TUNU-N_maint_sheet_p1.jpg,TUN,2023,TUN_2023_3.jpg,Copied,"""TUNU-N"" old name for TUN"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Central Northeast\TUN\Maintenance sheets\TUNU-N_maint_sheet_p2.jpg,TUN,2023,TUN_2023_4.jpg,Copied,"""TUNU-N"" old name for TUN"
+\\geodata\Ice\FIELDWORK\2023\GC-Net Northwest\CEN\Data\ApRES\CEN-ApRES-maintsheet.pdf,,2023,,Skip-Ambiguous,ApRES radar instrument sheet excluded per user guidance (out of scope)
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\DY2\Data\ApRES\Field_protocol\ApRES-DYE2-2023-maintsheet.pdf,,2023,,Skip-Ambiguous,ApRES radar instrument sheet excluded per user guidance (out of scope)
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\DY2\Maintenance sheets\Maintenance_sheet_DY2_CIRES-type_June2023.pdf,DY2,2023,DY2_2023.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\DY2\Maintenance sheets\Maintenance_sheet_DY2_June2023.pdf,DY2,2023,DY2_2023_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\KAN-U\Data\ApRES\Field_protocol\ApRES-KAN-U-2023-maintsheet.pdf,,2023,,Skip-Ambiguous,ApRES radar instrument sheet excluded per user guidance (out of scope)
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\KAN-U\Maintenance sheets\Maintenance_sheet_KAN-U_June2023.pdf,KAN_U,2023,KAN_U_2023.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\Maintenance_sheets_all_June2023.pdf,DY2,2023,DY2_2023_3.pdf,Copied,"Combined """"all GC-Net South"""" file; copied for each station documented that year (DY2/KAN_U/NSE/SDL/SDM)"
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\Maintenance_sheets_all_June2023.pdf,KAN_U,2023,KAN_U_2023_2.pdf,Copied,"Combined """"all GC-Net South"""" file; copied for each station documented that year (DY2/KAN_U/NSE/SDL/SDM)"
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\Maintenance_sheets_all_June2023.pdf,NSE,2023,NSE_2023.pdf,Copied,"Combined """"all GC-Net South"""" file; copied for each station documented that year (DY2/KAN_U/NSE/SDL/SDM)"
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\Maintenance_sheets_all_June2023.pdf,SDL,2023,SDL_2023.pdf,Copied,"Combined """"all GC-Net South"""" file; copied for each station documented that year (DY2/KAN_U/NSE/SDL/SDM)"
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\Maintenance_sheets_all_June2023.pdf,SDM,2023,SDM_2023.pdf,Copied,"Combined """"all GC-Net South"""" file; copied for each station documented that year (DY2/KAN_U/NSE/SDL/SDM)"
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\NSE\Maintenance sheets\Maintenance_sheet_NSE_June2023.pdf,NSE,2023,NSE_2023_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\SDL\Maintenance sheets\Maintenance_sheet_SDL_June2023.pdf,SDL,2023,SDL_2023_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\GC-Net South\SDM\Maintenance sheets\Maintenance_sheet_SDM_June2023.pdf,SDM,2023,SDM_2023_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\NUK\maintenance_sheets\NUK_B_maintenance_sheets.pdf,NUK_B,2023,NUK_B_2023.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\NUK\maintenance_sheets\NUK_K_maintenance_sheets.pdf,NUK_K,2023,NUK_K_2023.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\NUK\maintenance_sheets\NUK_L_maintenance_sheets.pdf,NUK_L,2023,NUK_L_2023.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\TAS\TAS_A\MaintenanceSheets_TasA_And_Snowfox.pdf,TAS_A,2023,TAS_A_2023.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\THU\THU_L maintenance sheet.pdf,THU_L,2023,THU_L_2023.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\THU\THU_L2 maintenance sheet.pdf,THU_L2,2023,THU_L2_2023.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2023\UPE\UPE_U\upe_u_maint_sheet_p1.jpg,UPE_U,2023,UPE_U_2023.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2023\UPE\UPE_U\upe_u_maint_sheet_p2.jpg,UPE_U,2023,UPE_U_2023_2.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net NE\EGP\Maintenance sheets\EGP_Maintenance_sheet_p1.jpg,EGP,2024,EGP_2024.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net NE\EGP\Maintenance sheets\EGP_Maintenance_sheet_p2.jpg,EGP,2024,EGP_2024_2.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net NE\NAE\Maintenance sheets\NAE_Maintenance_sheet_p1.jpg,NAE,2024,NAE_2024.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net NE\NAE\Maintenance sheets\NAE_Maintenance_sheet_p2.jpg,NAE,2024,NAE_2024_2.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net South\CP1\maintenance sheets\Maintenance_sheet_CP1_May2024.pdf,CP1,2024,CP1_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net South\DY2\maintenance sheets\Maintenance_sheet_DY2-SF_May2024.pdf,DY2,2024,DY2_2024.pdf,Copied,SnowFox variant
+\\geodata\Ice\FIELDWORK\2024\GC-Net South\DY2\maintenance sheets\Maintenance_sheet_DY2_May2024.pdf,DY2,2024,DY2_2024_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net South\KAN_T\Maintenance sheets\Maintenance_sheet_KAN-T_May2024.pdf,KAN_Tv3,2024,KAN_Tv3_2024.pdf,Copied,Official list has KAN_Tv3 only; path omits version suffix
+\\geodata\Ice\FIELDWORK\2024\GC-Net South\KAN_U\maintenance sheets\Maintenance_sheet_KAN-U_May2024.pdf,KAN_U,2024,KAN_U_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net South\NSE\maintenance sheets\Maintenance_sheet_NSE_May2024.pdf,NSE,2024,NSE_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net South\SDL\maintenance sheets\Maintenance_sheet_SDL_May2024.pdf,SDL,2024,SDL_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\GC-Net South\SDM\maintenance sheets\Maintenance_sheet_SDM_May2024.pdf,SDM,2024,SDM_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\QAS\QAS_L_v2\Maintenance Sheets QAS_Lv2 1 Sep 2024.pdf,,2024,,Skip-Ambiguous,QAS_Lv2 not in official list (only QAS_L and QAS_Lv3 exist)
+\\geodata\Ice\FIELDWORK\2024\QAS\QAS_L_v3\Maintenance Sheets QAS_Lv3 1 Sep 2024.pdf,QAS_Lv3,2024,QAS_Lv3_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\QAS\QAS_M_v3\Maintenance Sheets QAS_Mv3 1 Sep 2024.pdf,QAS_Mv3,2024,QAS_Mv3_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\QAS\QAS_U_sf\Maintenance Sheets QAS_U Snow Fox 1 Sep 2024.pdf,QAS_U,2024,QAS_U_2024.pdf,Copied,SnowFox variant
+\\geodata\Ice\FIELDWORK\2024\QAS\QAS_U_v3\Maintenance Sheets QAS_Uv3 27 Aug and 1 Sep 2024.pdf,QAS_Uv3,2024,QAS_Uv3_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\SCO\SCO_L\SCO_L maintenance sheet 2024.pdf,SCO_L,2024,SCO_L_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\SCO\SCO_U\SCO_U maintenance sheet 2024.pdf,SCO_U,2024,SCO_U_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\SWC_JAR\jar_o\Maintenance Sheets JAR_O 19 Aug 2024.pdf,JAR_O,2024,JAR_O_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\SWC_JAR\swc_o\Maintenance Sheets SWC_O 19 Aug 2024.pdf,SWC_O,2024,SWC_O_2024.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2024\TAS\TAS_2024_Maintenance_sheets.pdf,TAS_A,2024,TAS_A_2024.pdf,Copied,Combined TAS file; copied once per station (A/L/U)
+\\geodata\Ice\FIELDWORK\2024\TAS\TAS_2024_Maintenance_sheets.pdf,TAS_L,2024,TAS_L_2024.pdf,Copied,Combined TAS file; copied once per station (A/L/U)
+\\geodata\Ice\FIELDWORK\2024\TAS\TAS_2024_Maintenance_sheets.pdf,TAS_U,2024,TAS_U_2024.pdf,Copied,Combined TAS file; copied once per station (A/L/U)
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\CP1\Maintenance sheets\Maintenance_sheet_CP1_May2025.pdf,CP1,2025,CP1_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\DY2\Maintenance sheets\Maintenance_sheet_DY2CC_May2025.pdf,DY2_CC,2025,DY2_CC_2025.pdf,Copied,Treated as separate station per user instruction (CC variant)
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\DY2\Maintenance sheets\Maintenance_sheet_DY2_May2025.pdf,DY2,2025,DY2_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\KAN_U\Maintenance sheets\Maintenance_sheet_KAN-U_May2025.pdf,KAN_U,2025,KAN_U_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\KAN_U_1st\maintenance sheets\Maintenance_sheet_KAN-U_May2025.pdf,KAN_U,2025,KAN_U_2025_2.pdf,Copied,1st visit variant
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\NAU\Maintenance sheets\Maintenance_sheet_NAU_May2025.pdf,NAU,2025,NAU_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\NSE\Maintenance sheets\Maintenance_sheet_NSE_May2025.pdf,NSE,2025,NSE_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\NSE\Maintenance sheets\NSE_MaintenanceSheet_20250521_074214.jpg,NSE,2025,NSE_2025_2.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\NSE\Maintenance sheets\NSE_MaintenanceSheet_20250521_074222.jpg,NSE,2025,NSE_2025_3.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\SDL\Maintenance sheets\Maintenance_sheet_SDL_May2025.pdf,SDL,2025,SDL_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\SDL\Maintenance sheets\SDL_MaintenanceSheet_20250521_074127.jpg,SDL,2025,SDL_2025_2.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\SDL\Maintenance sheets\SDL_MaintenanceSheet_20250521_074132.jpg,SDL,2025,SDL_2025_3.jpg,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net South\SDM\Maintenance sheets\Maintenance_sheet_SDM_May2025.pdf,SDM,2025,SDM_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\GC-Net West\JAR\Maintenance_sheet\JAR O maintenance sheets 20150820.pdf,,2025,,Skip-Ambiguous,Filename dated 20150820 but located under 2025 folder - suspicious date mismatch
+\\geodata\Ice\FIELDWORK\2025\GC-Net West\SWC\Maintenance_sheet\SWC O maintenance sheets 20150820.pdf,,2025,,Skip-Ambiguous,Filename dated 20150820 but located under 2025 folder - suspicious date mismatch
+\\geodata\Ice\FIELDWORK\2025\ILU\maintenance sheets\JAR O maintenance sheets 20150820.pdf,,2025,,Skip-Ambiguous,Filename dated 20150820 but located under 2025 folder - suspicious date mismatch
+\\geodata\Ice\FIELDWORK\2025\ILU\maintenance sheets\SWC and JAR 2025 field report to supplement maintenance sheets v20250915.pdf,SWC,2025,SWC_2025.pdf,Copied,Combined SWC+JAR file; copied once per station
+\\geodata\Ice\FIELDWORK\2025\ILU\maintenance sheets\SWC and JAR 2025 field report to supplement maintenance sheets v20250915.pdf,JAR,2025,JAR_2025.pdf,Copied,Combined SWC+JAR file; copied once per station
+\\geodata\Ice\FIELDWORK\2025\ILU\maintenance sheets\SWC and JAR 2025 field report to supplement maintenance sheets.pdf,SWC,2025,SWC_2025_2.pdf,Copied,Combined SWC+JAR file (earlier/undated version); copied once per station
+\\geodata\Ice\FIELDWORK\2025\ILU\maintenance sheets\SWC and JAR 2025 field report to supplement maintenance sheets.pdf,JAR,2025,JAR_2025_2.pdf,Copied,Combined SWC+JAR file (earlier/undated version); copied once per station
+\\geodata\Ice\FIELDWORK\2025\ILU\maintenance sheets\SWC O maintenance sheets 20150820.pdf,,2025,,Skip-Ambiguous,Filename dated 20150820 but located under 2025 folder - suspicious date mismatch
+\\geodata\Ice\FIELDWORK\2025\KAN\KAN_T_May\KAN_T_Maintenance_sheets.pdf,KAN_Tv3,2025,KAN_Tv3_2025.pdf,Copied,Official list has KAN_Tv3 only; path omits version suffix
+\\geodata\Ice\FIELDWORK\2025\NUK\NUK_K\maintenance_sheet\maintenance_sheet_1.pdf,NUK_K,2025,NUK_K_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\NUK\NUK_K\maintenance_sheet\maintenance_sheet_2.pdf,NUK_K,2025,NUK_K_2025_2.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\NUK\NUK_Lv3\NUK_Lv3_maintenance_sheet_20250607.pdf,NUK_Lv3,2025,NUK_Lv3_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\NUK\NUK_Uv3\NUK_Uv3_maintenance_sheet_20250607.pdf,NUK_Uv3,2025,NUK_Uv3_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\QAS-September\Maintenance sheets\QAS_L maintanance sheets.pdf,QAS_L,2025,QAS_L_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\QAS-September\Maintenance sheets\QAS_M maintanance sheets.pdf,QAS_M,2025,QAS_M_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\QAS-September\Maintenance sheets\QAS_U maintanance sheets.pdf,QAS_U,2025,QAS_U_2025.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2025\QAS-September\Maintenance sheets\QAS_U snow fox maintanance sheets.pdf,QAS_U,2025,QAS_U_2025_2.pdf,Copied,SnowFox variant
+\\geodata\Ice\FIELDWORK\2025\QAS-Spring\spring_trip\2025 04 23 QAS maintenance sheets - SWE - stakes - 9 pages.pdf,,2025,,Skip-Ambiguous,No station enumerated; appears to be SWE/stakes report not a station AWS maintenance sheet
+\\geodata\Ice\FIELDWORK\2025\ZAC\FRE\FRE_maintenance_sheet.docx,FRE,2025,FRE_2025.docx,Copied,
+\\geodata\Ice\FIELDWORK\2025\ZAC\ZAC_A\ZAC_A_maintenance_sheet.docx,ZAC_A,2025,ZAC_A_2025.docx,Copied,
+\\geodata\Ice\FIELDWORK\2025\ZAC\ZAC_L\ZAC_L_maintenance_sheet.docx,ZAC_Lv3,2025,ZAC_Lv3_2025.docx,Copied,Official list has ZAC_Lv3 only; path omits version suffix
+\\geodata\Ice\FIELDWORK\2025\ZAC\ZAC_U\ZAC_U_maintenance_sheet.docx,ZAC_Uv3,2025,ZAC_Uv3_2025.docx,Copied,Official list has ZAC_Uv3 only; path omits version suffix
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet -  CEN_TH26.pdf,CEN_THM,2026,CEN_THM_2026.pdf,Copied,Treated as separate station per user instruction
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet -  EGP26.pdf,EGP,2026,EGP_2026.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet -  HUM26.pdf,HUM,2026,HUM_2026.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet -  NEM26.pdf,NEM,2026,NEM_2026.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet -  SUM26.pdf,SUM,2026,SUM_2026.pdf,Copied,Station added to list per user guidance
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet - CEN26.pdf,CEN2,2026,CEN2_2026.pdf,Copied,Plain 'CEN'; CEN1 deactivated 2021 so defaulted to CEN2 per user guidance
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet - NAE26.pdf,NAE,2026,NAE_2026.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet - NAU26.pdf,NAU,2026,NAU_2026.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet - STA26.pdf,STA,2026,STA_2026.pdf,Copied,Station added to list per user guidance
+\\geodata\Ice\FIELDWORK\2026\GC-Net North\Maintenance Sheets Scanned\Maintenance sheet - TUN26.pdf,TUN,2026,TUN_2026.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net South\CP1\Maintenance sheets\Maint_Sheet_CP1_2026.docx,CP1,2026,CP1_2026.docx,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net South\DY2\DY2_AWS\Maintenance sheets\Maint_Sheet_DY2_2026.docx,DY2,2026,DY2_2026.docx,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net South\DY2\DY2_SR\Maintenance sheets\Maintenance Sheet Finapp SnowFox PWR_ST_TS45.docx,DY2_SR,2026,DY2_SR_2026.docx,Copied,Treated as separate station per user instruction (*_SR rule)
+\\geodata\Ice\FIELDWORK\2026\GC-Net South\KAN_U\Maintenance sheets\Maint_Sheet_KAN_U_2026.docx,KAN_U,2026,KAN_U_2026.docx,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net South\NSE\Maintenance sheets\Maint_Sheet_NSE_2026.docx,NSE,2026,NSE_2026.docx,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net South\SDL\Maintenance sheets\Maint_Sheet_SDL_2026.docx,SDL,2026,SDL_2026.docx,Copied,
+\\geodata\Ice\FIELDWORK\2026\GC-Net South\SDM\Maintenance sheets\Maint_Sheet_SDM_2026.docx,SDM,2026,SDM_2026.docx,Copied,
+\\geodata\Ice\FIELDWORK\2026\NUK\NUK_Lv3\maintenance_sheet\nuk_lv3_maintenance_sheet.pdf,NUK_Lv3,2026,NUK_Lv3_2026.pdf,Copied,
+\\geodata\Ice\FIELDWORK\2026\NUK\NUK_Uv3\maintenance_sheet\nuk_uv3_maintenance_sheet.pdf,NUK_Uv3,2026,NUK_Uv3_2026.pdf,Copied,
