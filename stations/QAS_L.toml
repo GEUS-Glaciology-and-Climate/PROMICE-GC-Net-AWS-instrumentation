@@ -1,0 +1,80 @@
+# QAS RH/T instrument periods
+
+# QAS_A
+[[sensor]]
+name = "instrument_1"
+installation_date = "2014-08-23"
+decommission_date = "NA"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_A_2014.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# QAS_L
+[[sensor]]
+name = "instrument_2"
+installation_date = "2014-08-23"
+decommission_date = "2022-08-29"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_L_2014.pdf; maintenance sheets/QAS_L_2021.pdf; maintenance sheets/QAS_L_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_3"
+installation_date = "2022-08-29"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_L_2022.pdf; maintenance sheets/QAS_Lv3_2024.pdf; maintenance sheets/QAS_L_2025.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# QAS_M
+[[sensor]]
+name = "instrument_4"
+installation_date = "2017-08-24"
+decommission_date = "2022-08-30"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_M_2017.pdf; maintenance sheets/QAS_M_2021.pdf; maintenance sheets/QAS_M_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_5"
+installation_date = "2022-08-30"
+decommission_date = "2025-07-01"
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_M_2022.pdf; maintenance sheets/QAS_Mv3_2024.pdf"
+parsing_confidence = "installation_exact_maintenance_sheet_date; decommission_filename_year_only_review_required"
+
+[[sensor]]
+name = "instrument_6"
+installation_date = "2025-07-01"
+decommission_date = "NA"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_M_2025.pdf"
+parsing_confidence = "filename_year_only_review_required"
+
+
+# QAS_U
+[[sensor]]
+name = "instrument_7"
+installation_date = "2014-08-22"
+decommission_date = "2022-08-31"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_U_2014.pdf; maintenance sheets/QAS_U_2017.pdf; maintenance sheets/QAS_U_2021.pdf; maintenance sheets/QAS_U_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_8"
+installation_date = "2022-08-31"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_U_2022.pdf; maintenance sheets/QAS_Uv3_2024.pdf; maintenance sheets/QAS_U_2024.pdf; maintenance sheets/QAS_U_2025.pdf; maintenance sheets/QAS_U_2025_2.pdf"
+parsing_confidence = "exact_installation_date; no_verified_replacement_date"

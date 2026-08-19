@@ -1,0 +1,68 @@
+# First-draft instrument database for ZAK
+# Combined RH/T history for ZAK_T.
+#
+# Exact dates are used only where directly supported by the reviewed
+# maintenance sheets. Existing filename-year fallbacks are retained
+# when an exact boundary could not be verified.
+
+
+# ============================================================
+# ZAK_T
+# ============================================================
+
+[[sensor]]
+name = "instrument_1"
+station_id = "ZAK_T"
+
+# Source: ZAK_T_2012.pdf
+# The maintenance record documents a Rotronic RH/T system.
+# HygroClip S3 serial 60163833 was replaced by 60687677.
+# Exact visit date was not reliably extracted.
+installation_date = "2012-07-01"
+
+decommission_date = "2013-07-01"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "60163833"
+
+source_file = "maintenance sheets/ZAK_T_2012.pdf"
+parsing_confidence = "filename_year_only_review_required"
+
+
+[[sensor]]
+name = "instrument_2"
+station_id = "ZAK_T"
+
+# Existing first-draft database contains the 2013 period.
+# Exact 2013 maintenance date has not been verified from the
+# currently retrieved maintenance material.
+installation_date = "2013-07-01"
+
+decommission_date = "2015-04-26"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+
+source_file = "maintenance sheets/ZAK_T_2013.pdf"
+parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"
+
+
+[[sensor]]
+name = "instrument_3"
+station_id = "ZAK_T"
+
+# Source: ZAK_T_2015.pdf
+# Maintenance sheet arrival date: 26.4.2015.
+# RH/T assembly information includes:
+# ASS 2/2011
+# HygroClip old serial 60463833
+# New serial 5502426
+installation_date = "2015-04-26"
+
+decommission_date = "NA"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "5502426"
+
+source_file = "maintenance sheets/ZAK_T_2015.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

@@ -1,0 +1,70 @@
+# EGP relative-humidity instrument periods
+#
+# Sources reviewed:
+# - EGP_2023.jpg
+# - EGP_2023_2.jpg
+# - EGP_2024.jpg
+# - EGP_2024_2.jpg
+# - EGP_2026.pdf
+#
+# The 2023 visit occurred on 2023-06-21, but the maintenance sheet
+# explicitly marks the HygroClip T/humidity assembly as not replaced.
+# Therefore, 2023-06-21 is not used as an RH instrument boundary.
+#
+# The 2024 visit on 2024-06-11 records an upgrade from PROMICE v2
+# instrumentation to GC-Net AWS v4 Vaisala instrumentation.
+#
+# The 2026 sheet indicates Vaisala replacement activity, but the exact
+# visit date is not reliably readable. The current instrument therefore
+# remains open-ended until that date is confirmed.
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2016-05-01"  # first date in file
+decommission_date = "2021-08-12"  # from picture
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "EGP_2023.jpg; EGP_2023_2.jpg; EGP_2024.jpg"
+date_confidence = "high"
+boundary_reason = "GC-Net AWS v4 Vaisala upgrade documented on 2024-06-11"
+
+[[sensor]]
+name = "instrument_1b"
+installation_date = "2021-08-12" # from picture
+decommission_date = "2022-06-17"  # from picture
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "EGP_2023.jpg; EGP_2023_2.jpg; EGP_2024.jpg"
+date_confidence = "high"
+boundary_reason = "GC-Net AWS v4 Vaisala upgrade documented on 2024-06-11"
+
+[[sensor]]
+name = "instrument_1c"
+installation_date = "2022-06-17"
+decommission_date = "2023-06-21"
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "EGP_2023.jpg; EGP_2023_2.jpg; EGP_2024.jpg"
+date_confidence = "high"
+boundary_reason = "GC-Net AWS v4 Vaisala upgrade documented on 2024-06-11"
+
+
+[[sensor]]
+name = "instrument_1d"
+installation_date = "2023-06-21"
+decommission_date = "2024-06-11"
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "EGP_2023.jpg; EGP_2023_2.jpg; EGP_2024.jpg"
+date_confidence = "high"
+boundary_reason = "GC-Net AWS v4 Vaisala upgrade documented on 2024-06-11"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2024-06-11"
+decommission_date = "NA"
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "EGP_2024.jpg; EGP_2024_2.jpg; EGP_2026.pdf"
+date_confidence = "high for installation; unresolved for decommission"
+boundary_reason = "Installed during GC-Net AWS v4 Vaisala upgrade"

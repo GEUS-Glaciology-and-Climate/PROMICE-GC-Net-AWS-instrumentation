@@ -1,0 +1,95 @@
+# JAR_O relative-humidity instrument periods
+#
+# Sources reviewed:
+# - JAR_O_2022.pdf
+# - JAR_O_2024.pdf
+# - JAR_2025.pdf
+# - JAR_2025_2.pdf
+#
+# JAR_O_2022.pdf documents temperature/humidity and HygroClip
+# instrumentation, but the available extraction does not provide a
+# sufficiently reliable exact RH replacement date.
+#
+# JAR_O_2024.pdf documents the JAR_O station and contains both
+# Temperature / humidity assembly and HygroClip T/hum assembly entries.
+# The extracted maintenance sheet does not provide sufficiently clear
+# evidence that either RH assembly was replaced, so the 2024 visit is
+# not used as an RH instrument boundary.
+#
+# The August 2025 field report explicitly states that Lufft instruments
+# were replaced at both field sites and notes that they had failed in
+# spring 2025.
+#
+# The same report explicitly gives the JAR_O maintenance record dates:
+# 2024-08-19 and 2025-08-20.
+#
+# Therefore 2025-08-20 is used as the documented JAR_O Lufft
+# replacement boundary.
+
+
+[[sensor]]
+name = "instrument_1"
+
+# Source: JAR_O_2022.pdf
+#
+# The 2022 maintenance sheet documents the existing temperature/humidity
+# instrumentation but the reviewed extraction does not provide a reliable
+# original RH installation date.
+installation_date = "NA"
+
+# Sources:
+# - JAR_2025.pdf
+# - JAR_2025_2.pdf
+#
+# Field report states:
+# "Replaced Lufft at both sites, failed spring 2025"
+#
+# The JAR_O ablation section explicitly records:
+# 2024 08 19
+# 2025 08 20
+#
+# Therefore 2025-08-20 is used as the next documented RH instrument
+# boundary.
+decommission_date = "2025-08-20"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+
+source_file = "JAR_O_2022.pdf; JAR_O_2024.pdf; JAR_2025.pdf; JAR_2025_2.pdf"
+
+date_confidence = "original installation date unresolved; 2025 boundary supported by field report"
+
+boundary_reason = "Earlier JAR_O RH/T instrumentation remains in the period until the August 2025 field report documents Lufft replacement; the 2024 maintenance record does not provide clear RH replacement evidence"
+
+
+[[sensor]]
+name = "instrument_2"
+
+# Sources:
+# - JAR_2025.pdf
+# - JAR_2025_2.pdf
+#
+# Fieldwork period:
+# 18-24 August 2025
+#
+# Main accomplishments explicitly state:
+# "Replaced Lufft at both sites, failed spring 2025"
+#
+# The JAR_O maintenance comparison explicitly gives:
+# 2025 08 20
+#
+# Therefore 2025-08-20 is used as the installation date for the
+# documented replacement Lufft RH/T instrument.
+installation_date = "2025-08-20"
+
+# No later confirmed JAR_O RH/T replacement record has been reviewed.
+decommission_date = "NA"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+
+source_file = "JAR_2025.pdf; JAR_2025_2.pdf"
+
+date_confidence = "high for 2025 fieldwork date and documented Lufft replacement"
+
+boundary_reason = "August 2025 field report explicitly documents Lufft replacement and gives the JAR_O maintenance date as 2025-08-20"

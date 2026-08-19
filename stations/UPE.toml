@@ -1,0 +1,20 @@
+# First-draft instrument database for UPE_U
+# Exact maintenance date verified from the supplied 2023 maintenance sheet.
+
+[[sensor]]
+name = "instrument_1"
+
+# Source: maintenance sheets/UPE_U_2023.jpg
+# Maintenance sheet date: 07-AUG-2023
+# Temperature/humidity assembly:
+# Shipped = Y
+# Replaced = Y
+installation_date = "2023-08-07"
+
+# No later confirmed UPE_U RH/T replacement record reviewed.
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/UPE_U_2023.jpg; maintenance sheets/UPE_U_2023_2.jpg"
+parsing_confidence = "exact_maintenance_sheet_date"

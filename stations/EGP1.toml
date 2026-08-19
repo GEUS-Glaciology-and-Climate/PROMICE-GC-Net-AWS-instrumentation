@@ -1,0 +1,64 @@
+# EGP relative-humidity instrument periods
+#
+# Sources reviewed:
+# - EGP_2023.jpg
+# - EGP_2023_2.jpg
+# - EGP_2024.jpg
+# - EGP_2024_2.jpg
+# - EGP_2026.pdf
+# - Equipment fieldwork_GC-Net.xlsx
+# - PROMICE_maintenance.xlsx
+#
+# Interpretation:
+#
+# - The 2023 maintenance visit is NOT used as an RH instrument
+#   boundary because the HygroClip T/humidity assembly was
+#   recorded as not replaced.
+#
+# - 2024-06-11 IS used as the RH instrument boundary because
+#   the maintenance documentation records the upgrade from
+#   PROMICE v2 instrumentation to GC-Net AWS v4 Vaisala
+#   instrumentation.
+#
+# - The 2026 maintenance sheet records replacement activity
+#   for Vaisala upper and Vaisala lower.
+#
+# - The exact 2026 replacement date has not been reliably
+#   established, so no additional 2026 instrument period
+#   is introduced yet.
+#
+# IMPORTANT:
+# Instrument periods should represent documented RH hardware
+# changes, not simply annual maintenance visits.
+
+
+[[sensor]]
+name = "instrument_1"
+
+installation_date = "2016-05-01"
+decommission_date = "2024-06-11"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+
+source_file = "PROMICE_maintenance.xlsx; Equipment fieldwork_GC-Net.xlsx; EGP_2023.jpg; EGP_2023_2.jpg; EGP_2024.jpg; EGP_2024_2.jpg"
+
+date_confidence = "medium"
+
+boundary_reason = "Legacy EGP Rotronic/HygroClip RH period. The 2023 maintenance visit is not treated as a sensor boundary because the HygroClip T/humidity assembly was recorded as not replaced. This period ends at the documented 2024 GC-Net AWS v4 Vaisala upgrade."
+
+
+[[sensor]]
+name = "instrument_2"
+
+installation_date = "2024-06-11"
+decommission_date = "NA"
+
+instrument_type = "Vaisala"
+serial_number = "NA"
+
+source_file = "EGP_2024.jpg; EGP_2024_2.jpg; Equipment fieldwork_GC-Net.xlsx; EGP_2026.pdf"
+
+date_confidence = "high for installation; later replacement date unresolved"
+
+boundary_reason = "Vaisala RH instrumentation introduced during the documented GC-Net AWS v4 upgrade. The 2026 maintenance sheet records replacement activity for Vaisala upper and Vaisala lower, but an exact replacement date has not been reliably established."

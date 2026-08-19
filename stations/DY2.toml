@@ -1,0 +1,89 @@
+# DY2 relative-humidity instrument periods
+#
+# Sources reviewed:
+# - DY2_2021.pdf
+# - DY2_2022.pdf
+# - DY2_2023.pdf
+# - DY2_2023_2.pdf
+# - DY2_2023_3.pdf
+# - DY2_2024.pdf
+# - DY2_2024_2.pdf
+# - DY2_2025.pdf
+# - DY2_2026.docx
+# - DY2_CC_2025.pdf
+# - DY2_SR_2026.docx
+#
+# The 2022 visit occurred on 2022-06-16 and is documented as a
+# "New station setup". Both the upper and lower temperature/humidity
+# assemblies are marked as replaced. This is therefore used as a
+# confirmed RH instrument boundary.
+#
+# The 2023 DY2 maintenance record documents replacement of both the
+# upper and lower temperature/humidity assemblies. The hardware page
+# gives the visit as 19 JUN, so 2023-06-19 is used as the next RH
+# instrument boundary.
+#
+# The 2024 DY2 maintenance sheet records the upper and lower
+# temperature/humidity assemblies as not replaced. Therefore the
+# 2024 maintenance visit is not used as an RH instrument boundary.
+#
+# The 2025 DY2 maintenance sheet records Lufft temperature/humidity
+# replacement activity for both the upper and lower assemblies.
+# The sheet date is read as 2025-05-12, so this is used as an RH
+# instrument boundary.
+#
+# The 2026 visit occurred on 2026-04-30. The maintenance sheet
+# explicitly records "Replace = Yes" for both Lufft upper and
+# Lufft lower. This is therefore a confirmed RH instrument boundary.
+#
+# DY2_CC_2025 is not used to create an RH boundary because it is a
+# separate DYE2_CC record and its temperature/humidity assemblies are
+# marked as not replaced.
+#
+# DY2_SR_2026 is not used to create an RH boundary because it is an
+# SR_DY2 Finapp/SnowFox/power-station maintenance record rather than
+# a DY2 temperature/humidity instrument replacement record.
+
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2022-06-16"
+decommission_date = "2023-06-19"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "DY2_2022.pdf; DY2_2023_2.pdf"
+date_confidence = "high"
+boundary_reason = "New station setup on 2022-06-16 with upper and lower temperature/humidity assemblies marked as replaced"
+
+
+[[sensor]]
+name = "instrument_1b"
+installation_date = "2023-06-19"
+decommission_date = "2025-05-12"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "DY2_2023_2.pdf; DY2_2024_2.pdf; DY2_2025.pdf"
+date_confidence = "high for 2023 boundary; 2025 date transcribed from maintenance sheet"
+boundary_reason = "Upper and lower temperature/humidity assemblies replaced during the 2023 maintenance visit; 2024 records no RH replacement"
+
+
+[[sensor]]
+name = "instrument_1c"
+installation_date = "2025-05-12"
+decommission_date = "2026-04-30"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "DY2_2025.pdf; DY2_2026.docx"
+date_confidence = "high for replacement evidence"
+boundary_reason = "2025 maintenance sheet records Lufft upper and lower temperature/humidity replacement activity"
+
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2026-04-30"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "DY2_2026.docx"
+date_confidence = "high"
+boundary_reason = "Both Lufft upper and Lufft lower explicitly marked Replace = Yes on 2026-04-30"

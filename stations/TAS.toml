@@ -1,0 +1,201 @@
+# ============================================================
+# TAS
+# Combined RH/T instrument history
+#
+# Stations included:
+# - TAS_A
+# - TAS_L
+# - TAS_U
+# ============================================================
+
+
+# ============================================================
+# TAS_A
+# ============================================================
+
+[[sensor]]
+name = "instrument_1"
+station_id = "TAS_A"
+
+installation_date = "2013-07-01"
+decommission_date = "2014-08-02"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "60956910"
+
+source_file = "maintenance sheets/TAS_A_2014.pdf"
+parsing_confidence = "installation_filename_year_only_review_required; decommission_date_from_2014_visit_context"
+
+
+[[sensor]]
+name = "instrument_2"
+station_id = "TAS_A"
+
+installation_date = "2014-08-02"
+decommission_date = "2019-05-01"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "61180280"
+
+source_file = "maintenance sheets/TAS_A_2014.pdf; maintenance sheets/TAS_A_2015.pdf"
+parsing_confidence = "installation_date_from_2014_visit_context; exact_decommission_date"
+
+
+[[sensor]]
+name = "instrument_3"
+station_id = "TAS_A"
+
+installation_date = "2019-05-01"
+decommission_date = "2021-09-07"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "61222787"
+
+source_file = "maintenance sheets/TAS_A_2019.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_4"
+station_id = "TAS_A"
+
+installation_date = "2021-09-07"
+decommission_date = "2022-09-03"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "20499269"
+
+source_file = "maintenance sheets/TAS_A_2021.pdf; maintenance sheets/TAS_A_2021_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_5"
+station_id = "TAS_A"
+
+installation_date = "2022-09-03"
+decommission_date = "2024-09-09"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+
+source_file = "maintenance sheets/TAS_A_2022.pdf; maintenance sheets/TAS_A_2023.pdf; maintenance sheets/TAS_A_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_6"
+station_id = "TAS_A"
+
+# New TAS_A_v3 station.
+# Lufft was not installed during the initial 9 September visit
+# because the cable was missing.
+# Station was revisited on 11 September 2024 and Lufft installed.
+installation_date = "2024-09-11"
+decommission_date = "NA"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+
+source_file = "maintenance sheets/TAS_A_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+
+# ============================================================
+# TAS_L
+# ============================================================
+
+[[sensor]]
+name = "instrument_7"
+station_id = "TAS_L"
+
+installation_date = "2014-08-03"
+decommission_date = "2015-08-11"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "61180277"
+
+source_file = "maintenance sheets/TAS_L_2014.pdf; maintenance sheets/TAS_L_2015.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_8"
+station_id = "TAS_L"
+
+installation_date = "2015-08-11"
+decommission_date = "2021-09-07"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "61180300"
+
+source_file = "maintenance sheets/TAS_L_2015.pdf; maintenance sheets/TAS_L_2021.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_9"
+station_id = "TAS_L"
+
+installation_date = "2021-09-07"
+decommission_date = "2022-09-03"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "55024226"
+
+source_file = "maintenance sheets/TAS_L_2021.pdf; maintenance sheets/TAS_L_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_10"
+station_id = "TAS_L"
+
+installation_date = "2022-09-03"
+decommission_date = "2024-09-11"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+
+source_file = "maintenance sheets/TAS_L_2022.pdf; maintenance sheets/TAS_L_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_11"
+station_id = "TAS_L"
+
+installation_date = "2024-09-11"
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+
+source_file = "maintenance sheets/TAS_L_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+
+# ============================================================
+# TAS_U
+# ============================================================
+
+[[sensor]]
+name = "instrument_12"
+station_id = "TAS_U"
+
+# 2014 maintenance sheet identifies the existing
+# temperature/humidity assembly as 6/2011.
+# Exact installation day is not available.
+installation_date = "2011-07-01"
+
+# TAS_U maintenance note explicitly records:
+# 13/8-2015 - Taken down.
+decommission_date = "2015-08-13"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "5502517"
+
+source_file = "maintenance sheets/TAS_U_2014.pdf; maintenance sheets/TAS_U_2015.pdf"
+parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"

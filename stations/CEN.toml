@@ -1,1 +1,36 @@
+# CEN2 relative-humidity instrument periods
+#
+# Sources reviewed:
+# - CEN2_2022.pdf
+# - CEN2_2026.pdf
+#
+# The currently available CEN2 instrumentation record identifies RH
+# instrument periods beginning in 2022 and 2026. However, the exact
+# maintenance visit dates are not confirmed in the available record.
+#
+# The existing TOML used 2022-07-01 and 2026-07-01 as filename-year
+# fallback dates and explicitly flagged both dates for review.
+# Therefore, these dates should not be treated as confirmed RH
+# instrument boundaries until the maintenance sheets are verified.
 
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2022-07-01"
+decommission_date = "2026-07-01"
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN2_2022.pdf"
+date_confidence = "low - filename year only; exact visit date unresolved"
+boundary_reason = "Instrument period derived from CEN2_2022 maintenance record; exact maintenance date requires confirmation"
+
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2026-07-01"
+decommission_date = "NA"
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "CEN2_2026.pdf"
+date_confidence = "low - filename year only; exact visit date unresolved"
+boundary_reason = "Vaisala instrument period recorded from CEN2_2026 maintenance record; exact replacement date requires confirmation"

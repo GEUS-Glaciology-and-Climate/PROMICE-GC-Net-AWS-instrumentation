@@ -1,0 +1,55 @@
+# First-draft instrument database for NSE
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2021-07-01"
+decommission_date = "2022-06-23"
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "maintenance sheets/NSE_2021.pdf; maintenance sheets/NSE_2021_2.pdf"
+parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2022-06-23"
+decommission_date = "2023-06-09"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NSE_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_3"
+installation_date = "2023-06-09"
+decommission_date = "2024-05-21"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NSE_2023_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_4"
+installation_date = "2024-05-21"
+decommission_date = "2025-05-20"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NSE_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_5"
+installation_date = "2025-05-20"
+decommission_date = "2026-05-01"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NSE_2025.pdf; maintenance sheets/NSE_2025_2.jpg; maintenance sheets/NSE_2025_3.jpg"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_6"
+installation_date = "2026-05-01"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NSE_2026.docx"
+parsing_confidence = "exact_maintenance_sheet_date"

@@ -1,0 +1,41 @@
+# First-draft instrument database for KAN_U
+# Auto-generated from 'maintenance sheets/'.
+# Exact maintenance-sheet dates are used where verified.
+# Dates flagged 'filename_year_only_review_required' must be
+# replaced once the exact maintenance-sheet date is confirmed.
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2023-06-08"
+decommission_date = "2024-05-27"
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "maintenance sheets/KAN_U_2023.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2024-05-27"
+decommission_date = "2025-07-01"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/KAN_U_2024.pdf"
+parsing_confidence = "exact_installation_date; decommission_filename_year_only_review_required"
+
+[[sensor]]
+name = "instrument_3"
+installation_date = "2025-07-01"
+decommission_date = "2026-05-06"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/KAN_U_2025.pdf"
+parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"
+
+[[sensor]]
+name = "instrument_4"
+installation_date = "2026-05-06"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/KAN_U_2026.docx"
+parsing_confidence = "exact_maintenance_sheet_date"

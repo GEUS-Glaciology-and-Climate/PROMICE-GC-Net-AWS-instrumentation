@@ -1,0 +1,49 @@
+# First-draft instrument database for THU
+# Combined RH/T history for THU_L and THU_L2.
+
+
+# ============================================================
+# THU_L
+# ============================================================
+
+[[sensor]]
+name = "instrument_1"
+station_id = "THU_L"
+
+# Source: THU_L_2023.pdf
+# Maintenance date: 31 MAY 2023
+# Temperature/humidity assembly: Shipped = N, Replaced = N
+# HygroClip T/hum assembly: Shipped = Y
+# The sheet does not establish an earlier exact RH installation date.
+installation_date = "2023-05-31"
+
+# No later confirmed THU_L RH/T replacement record reviewed.
+decommission_date = "NA"
+
+instrument_type = "HygroClip"
+serial_number = "NA"
+source_file = "maintenance sheets/THU_L_2023.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# ============================================================
+# THU_L2
+# ============================================================
+
+[[sensor]]
+name = "instrument_2"
+station_id = "THU_L2"
+
+# Source: THU_L2_2023.pdf
+# Maintenance date: 31 MAY 2023
+# Temperature/humidity assembly: Shipped = Y
+# HygroClip T/hum assembly: Shipped = N, Replaced = N
+installation_date = "2023-05-31"
+
+# No later confirmed THU_L2 RH/T replacement record reviewed.
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/THU_L2_2023.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

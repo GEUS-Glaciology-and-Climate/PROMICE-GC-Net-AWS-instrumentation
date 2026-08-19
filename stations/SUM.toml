@@ -1,0 +1,22 @@
+# First-draft instrument database for SUM
+
+[[sensor]]
+name = "instrument_1"
+
+# Source: maintenance sheets/SUM_2026.pdf
+# GC-Net v4 maintenance/install sheet.
+# Date field reads: 19-06-2026.
+#
+# Station hardware includes:
+# - Install Lufft
+# - Install Vaisala upper
+# - Install Vaisala lower
+installation_date = "2026-06-19"
+
+# No later confirmed SUM RH/T replacement record reviewed.
+decommission_date = "NA"
+
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "maintenance sheets/SUM_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

@@ -1,0 +1,67 @@
+# First-draft instrument database for SWC
+# Combined SWC / SWC_O RH/T history.
+
+
+# ============================================================
+# SWC
+# ============================================================
+
+[[sensor]]
+name = "instrument_1"
+station_id = "SWC"
+
+# Source: SWC_2022.pdf
+# Maintenance date: 2022-08-03
+# Existing SWC-old RH/T assembly was not marked as replaced.
+installation_date = "2022-08-03"
+
+# No exact later replacement boundary for this specific SWC unit
+# is established by the reviewed records.
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/SWC_2022.pdf"
+parsing_confidence = "filename_year_only_review_required"
+
+
+# ============================================================
+# SWC_O
+# ============================================================
+
+[[sensor]]
+name = "instrument_2"
+station_id = "SWC_O"
+
+# Source: SWC_O_2024.pdf
+# Maintenance date: 2024-08-20
+# Temperature/humidity assembly present.
+installation_date = "2024-08-20"
+
+# Source: SWC_2025.pdf / SWC_2025_2.pdf
+# Fieldwork date: 2025-08-20
+# Report explicitly states Lufft was replaced at both sites.
+decommission_date = "2025-08-20"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/SWC_O_2024.pdf; maintenance sheets/SWC_2025.pdf; maintenance sheets/SWC_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_3"
+station_id = "SWC_O"
+
+# 2025 field report:
+# Lufft replaced at both sites after failure in spring 2025.
+installation_date = "2025-08-20"
+
+# No later SWC_O RH/T replacement is established
+# by the supplied records.
+decommission_date = "NA"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/SWC_2025.pdf; maintenance sheets/SWC_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

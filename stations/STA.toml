@@ -1,0 +1,15 @@
+# First-draft instrument database for STA
+
+[[sensor]]
+name = "instrument_1"
+
+# Source: STA_2026.pdf
+# Complete installation of a new GC-Net v4 station.
+# Vaisala upper and Vaisala lower are listed for installation.
+installation_date = "2026-08-12"
+decommission_date = "NA"
+
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "maintenance sheets/STA_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

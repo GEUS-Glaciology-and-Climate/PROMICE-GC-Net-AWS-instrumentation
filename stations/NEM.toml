@@ -1,0 +1,19 @@
+# First-draft instrument database for NEM
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2022-06-20"
+decommission_date = "2026-07-01"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NEM_2022.pdf"
+parsing_confidence = "exact_installation_date; decommission_filename_year_only_review_required"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2026-07-01"
+decommission_date = "NA"
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "maintenance sheets/NEM_2026.pdf"
+parsing_confidence = "filename_year_only_review_required"

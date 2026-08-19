@@ -1,0 +1,20 @@
+# First-draft instrument database for NAU
+# Exact maintenance dates verified where readable.
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2023-06-18"
+decommission_date = "2025-05-10"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/NAU_2023.jpg; maintenance sheets/NAU_2023_2.jpg; maintenance sheets/NAU_2023_3.jpg; maintenance sheets/NAU_2023_4.jpg"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2025-05-10"
+decommission_date = "NA"
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "maintenance sheets/NAU_2025.pdf; maintenance sheets/NAU_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

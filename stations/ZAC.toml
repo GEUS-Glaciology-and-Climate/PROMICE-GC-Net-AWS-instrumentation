@@ -1,0 +1,120 @@
+# First-draft instrument database for ZAC
+# Combined RH/T history for ZAC_A, ZAC_Lv3 and ZAC_Uv3.
+
+
+# ============================================================
+# ZAC_A
+# ============================================================
+
+[[sensor]]
+name = "instrument_1"
+station_id = "ZAC_A"
+
+# Source: maintenance sheets/ZAC_A_2025.docx
+# Maintenance dates: 16 + 18 + 22 April 2025
+#
+# Upper temperature/humidity assembly:
+# Shipped = N
+# Replaced = N
+#
+# Lower temperature/humidity assembly:
+# Shipped = Y
+# Replaced = Y
+#
+# Exact earlier installation date is not established by this record.
+installation_date = "NA"
+
+# The 2025 sheet confirms lower RH/T replacement, but gives three
+# maintenance dates and does not associate the replacement with one
+# specific date. Therefore no exact decommission date is assigned.
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/ZAC_A_2025.docx"
+parsing_confidence = "RH_replacement_confirmed_lower_only; exact_replacement_date_unresolved"
+
+
+[[sensor]]
+name = "instrument_2"
+station_id = "ZAC_A"
+
+# Source: maintenance sheets/ZAC_A_2025.docx
+#
+# Lower temperature/humidity assembly:
+# Shipped = Y
+# Replaced = Y
+#
+# Maintenance dates are listed as:
+# 16 + 18 + 22 April 2025
+#
+# The source does not identify which exact date the lower RH/T
+# replacement occurred.
+installation_date = "NA"
+
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/ZAC_A_2025.docx"
+parsing_confidence = "RH_replacement_confirmed_lower_only; exact_installation_date_unresolved"
+
+
+# ============================================================
+# ZAC_Lv3
+# ============================================================
+
+[[sensor]]
+name = "instrument_3"
+station_id = "ZAC_Lv3"
+
+# Source: maintenance sheets/ZAC_Lv3_2025.docx
+# Maintenance dates: 16, 29 April 2025
+#
+# Temperature/humidity assembly:
+# Shipped = N
+# Replaced = N
+#
+# HygroClip T/hum assembly:
+# Shipped = N
+# Replaced = N
+#
+# Therefore the 2025 maintenance visit does not create an RH boundary.
+installation_date = "NA"
+
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/ZAC_Lv3_2025.docx"
+parsing_confidence = "no_verified_RH_replacement_date"
+
+
+# ============================================================
+# ZAC_Uv3
+# ============================================================
+
+[[sensor]]
+name = "instrument_4"
+station_id = "ZAC_Uv3"
+
+# Source: maintenance sheets/ZAC_Uv3_2025.docx
+#
+# Temperature/humidity assembly:
+# Shipped = N
+# Replaced = N
+#
+# HygroClip T/hum assembly:
+# Shipped = N
+# Replaced = N
+#
+# Therefore the reviewed 2025 record does not establish a new
+# RH/T instrument boundary.
+installation_date = "NA"
+
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/ZAC_Uv3_2025.docx"
+parsing_confidence = "no_verified_RH_replacement_date"

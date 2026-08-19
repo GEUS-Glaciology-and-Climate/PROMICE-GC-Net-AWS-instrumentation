@@ -1,0 +1,105 @@
+# First-draft instrument database for SDM
+#
+# 2023: both upper and lower temperature/humidity assemblies replaced.
+# 2024: upgrade from GC-Net AWS v3 to GC-Net AWS v4 (Vaisala).
+# 2025: Lufft replacement activity recorded.
+# 2026: both upper and lower Vaisala sensors explicitly replaced.
+
+
+[[sensor]]
+name = "instrument_1"
+
+# Source: SDM_2021.pdf
+# Exact RH installation date is not reliably readable.
+installation_date = "2021-07-01"
+
+# Source: SDM_2023.pdf / SDM_2023_2.pdf
+# Date: 11 JUN 2023
+# Temperature/humidity assembly upper: Replaced = Y
+# Temperature/humidity assembly lower: Replaced = Y
+decommission_date = "2023-06-11"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/SDM_2021.pdf"
+parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"
+
+
+[[sensor]]
+name = "instrument_2"
+
+# Source: SDM_2023.pdf / SDM_2023_2.pdf
+# Date: 11 JUN 2023
+# Upper and lower temperature/humidity assemblies replaced.
+installation_date = "2023-06-11"
+
+# Source: SDM_2024.pdf
+# Date: 23/5-2024
+# Notes: Upgrade from GC-Net AWS v3 to GC-Net AWS v4 (vaisala).
+# Upper: Lufft -> Vaisala
+# Lower: Lufft -> Vaisala
+decommission_date = "2024-05-23"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/SDM_2023.pdf; maintenance sheets/SDM_2023_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_3"
+
+# Source: SDM_2024.pdf
+# Date: 23/5-2024
+# Upgrade from GC-Net AWS v3 to GC-Net AWS v4 (Vaisala).
+# Both upper and lower RH/T assemblies changed from Lufft to Vaisala.
+installation_date = "2024-05-23"
+
+# Source: SDM_2025.pdf
+# 2025 maintenance sheet records Lufft RH/T replacement activity.
+# Exact handwritten maintenance date is not reliably readable from
+# the extracted source, so the filename-year fallback is retained.
+decommission_date = "2025-07-01"
+
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "maintenance sheets/SDM_2024.pdf"
+parsing_confidence = "exact_installation_date; decommission_filename_year_only_review_required"
+
+
+[[sensor]]
+name = "instrument_4"
+
+# Source: SDM_2025.pdf
+# Lufft RH/T replacement activity is recorded in the 2025 sheet.
+# Exact handwritten date is unresolved, so filename-year fallback used.
+installation_date = "2025-07-01"
+
+# Source: SDM_2026.docx
+# Date: 03-05-2026
+# Vaisala upper: Replace = Yes
+# Vaisala lower: Replace = Yes
+decommission_date = "2026-05-03"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/SDM_2025.pdf"
+parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"
+
+
+[[sensor]]
+name = "instrument_5"
+
+# Source: SDM_2026.docx
+# Date: 03-05-2026
+# Vaisala upper: Replace = Yes
+# Vaisala lower: Replace = Yes
+installation_date = "2026-05-03"
+
+# No later confirmed SDM RH/T replacement record reviewed.
+decommission_date = "NA"
+
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "maintenance sheets/SDM_2026.docx"
+parsing_confidence = "exact_maintenance_sheet_date"

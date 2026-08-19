@@ -1,0 +1,191 @@
+# First-draft instrument database for KPC
+#
+# Sources reviewed:
+# - maintenance sheets/KPC_L_2016.pdf
+# - maintenance sheets/KPC_L_2019.pdf
+# - maintenance sheets/KPC_L_2022.pdf
+# - maintenance sheets/KPC_Lv3_2022.pdf
+# - maintenance sheets/KPC_U_2016.pdf
+# - maintenance sheets/KPC_U_2019.pdf
+# - maintenance sheets/KPC_U_2022.pdf
+# - maintenance sheets/KPC_Uv3_2022.pdf
+#
+# KPC has separate upper and lower station histories, so the RH
+# instrumentation is represented below as four station-specific series:
+# KPC_L, KPC_Lv3, KPC_U, and KPC_Uv3.
+#
+# Only exact dates explicitly written in the reviewed maintenance sheets
+# are used. No filename-year fallback dates are introduced where an exact
+# maintenance-sheet date is available.
+
+
+# ============================================================
+# KPC_L
+# ============================================================
+
+[[sensor]]
+name = "instrument_1"
+station_id = "KPC_L"
+
+# Source: KPC_L_2016.pdf
+# Maintenance sheet Date: 26/7-2016
+#
+# The 2016 sheet contains old/new part-number columns for the RH system,
+# including temperature probe, HygroClip, and T/hum casing entries.
+installation_date = "2016-07-26"
+
+# Source: KPC_L_2019.pdf
+# Maintenance sheet Date: 12/07-19
+#
+# The 2019 sheet contains arrival/departure part information for the
+# temperature/humidity system, including the HygroClip entry.
+decommission_date = "2019-07-12"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "maintenance sheets/KPC_L_2016.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_2"
+station_id = "KPC_L"
+
+# Source: KPC_L_2019.pdf
+# Maintenance sheet Date: 12/07-19
+installation_date = "2019-07-12"
+
+# Source: KPC_L_2022.pdf
+# Maintenance sheet Date: 28/5-2022
+#
+# KPC_L_2022.pdf identifies the station as KPC-L (OLD).
+# The sheet documents the existing temperature/humidity and HygroClip
+# instrumentation at the old station.
+decommission_date = "2022-05-28"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "maintenance sheets/KPC_L_2019.pdf; maintenance sheets/KPC_L_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# ============================================================
+# KPC_Lv3
+# ============================================================
+
+[[sensor]]
+name = "instrument_3"
+station_id = "KPC_Lv3"
+
+# Source: KPC_Lv3_2022.pdf
+# Maintenance sheet Date: 28/5-2022
+#
+# The sheet documents installation activity at KPC_L with the new
+# PROMICE v3 configuration.
+#
+# Temperature / humidity assembly = Y
+# The sheet explicitly references a Lufft sensor.
+installation_date = "2022-05-28"
+
+# No later KPC_Lv3 maintenance sheet was included in the reviewed
+# source set, so this period remains open-ended.
+decommission_date = "NA"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/KPC_Lv3_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# ============================================================
+# KPC_U
+# ============================================================
+
+[[sensor]]
+name = "instrument_4"
+station_id = "KPC_U"
+
+# Source: KPC_U_2016.pdf
+# Maintenance sheet Date: 26/7-2016
+#
+# The reviewed 2016 document includes old/new RH-system component
+# information, including temperature probe, HygroClip, and T/hum
+# casing entries.
+installation_date = "2016-07-26"
+
+# Source: KPC_U_2019.pdf
+# Maintenance sheet Date: 13/07-2019
+#
+# Notes state that the old station/logger was under ice/water and
+# that a new station was put up close to the old station.
+decommission_date = "2019-07-13"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "maintenance sheets/KPC_U_2016.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_5"
+station_id = "KPC_U"
+
+# Source: KPC_U_2019.pdf
+# Maintenance sheet Date: 13/07-2019
+#
+# Notes:
+# "old station and logger under ice/water"
+# "New station put up close to old station"
+#
+# The sheet lists a Temperature / humidity assembly and documents the
+# new station configuration.
+installation_date = "2019-07-13"
+
+# Source: KPC_U_2022.pdf
+# Maintenance sheet Date: 28/5-2022
+#
+# The sheet identifies the station as KPC-U (OLD).
+#
+# For the HygroClip entry the sheet explicitly says:
+# "Not changed."
+#
+# Therefore 2022-05-28 is the end of this OLD-station period because
+# the new KPC_Uv3 station is documented separately on the same date,
+# not because this maintenance sheet says the old HygroClip itself
+# was replaced.
+decommission_date = "2022-05-28"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "maintenance sheets/KPC_U_2019.pdf; maintenance sheets/KPC_U_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# ============================================================
+# KPC_Uv3
+# ============================================================
+
+[[sensor]]
+name = "instrument_6"
+station_id = "KPC_Uv3"
+
+# Source: KPC_Uv3_2022.pdf
+# Maintenance sheet Date: 28/5-2022
+#
+# The maintenance sheet documents the new KPC_U configuration.
+#
+# Temperature / humidity assembly = Y
+# HygroClip T/hum assembly = N
+# The handwritten RH/T note identifies a Lufft sensor.
+#
+# Therefore this date starts the KPC_Uv3 Lufft RH period.
+installation_date = "2022-05-28"
+
+# No later KPC_Uv3 RH/T maintenance sheet was included in the reviewed
+# source set, so this period remains open-ended.
+decommission_date = "NA"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/KPC_Uv3_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

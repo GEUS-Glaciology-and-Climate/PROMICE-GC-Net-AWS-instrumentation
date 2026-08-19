@@ -1,0 +1,79 @@
+# First-draft instrument databases for NUK stations
+
+
+# NUK_B
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2023-10-02"
+decommission_date = "NA"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_B_2023.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# NUK_K
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2023-09-21"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_K_2023.pdf; maintenance sheets/NUK_K_2025.pdf; maintenance sheets/NUK_K_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# NUK_L
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2023-04-15"
+decommission_date = "2025-06-07"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_L_2023.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# NUK_Lv3
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2025-06-07"
+decommission_date = "2026-06-22"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_Lv3_2025.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2026-06-22"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_Lv3_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# NUK_Uv3
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2025-06-07"
+decommission_date = "2026-06-24"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_Uv3_2025.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2026-06-24"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_Uv3_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

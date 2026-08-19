@@ -1,0 +1,55 @@
+# First-draft instrument database for TUN
+
+[[sensor]]
+name = "instrument_1"
+
+# Source: TUN_2022.pdf
+# Date: 27/5-2022
+# New station with upper and lower T/RH assemblies.
+installation_date = "2022-05-27"
+
+# Source: TUN_2023.jpg / TUN_2023_2.jpg
+# Date: 20-06-2023
+# Upper and lower T/RH assemblies replaced.
+decommission_date = "2023-06-20"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/TUN_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_2"
+
+# Source: TUN_2023.jpg / TUN_2023_2.jpg
+# Date: 20-06-2023
+# Upper T/RH assembly: Shipped = Y, Replaced = Y
+# Lower T/RH assembly: Shipped = Y, Replaced = Y
+installation_date = "2023-06-20"
+
+# Source: TUN_2026.pdf
+# Date field reads 11 June 2026.
+# Vaisala upper and lower replacement activity documented.
+decommission_date = "2026-06-11"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/TUN_2023.jpg; maintenance sheets/TUN_2023_2.jpg; maintenance sheets/TUN_2023_3.jpg; maintenance sheets/TUN_2023_4.jpg"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_3"
+
+# Source: TUN_2026.pdf
+# Date: 11 June 2026
+# Station hardware records Vaisala upper and lower replacement activity.
+installation_date = "2026-06-11"
+
+decommission_date = "NA"
+
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "maintenance sheets/TUN_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

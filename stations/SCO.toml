@@ -1,0 +1,89 @@
+# First-draft instrument database for SCO
+# Combined RH/T history for SCO_L and SCO_U.
+
+
+# ============================================================
+# SCO_L
+# ============================================================
+
+[[sensor]]
+name = "instrument_1"
+station_id = "SCO_L"
+
+# Source: maintenance sheets/SCO_L_2014.pdf
+# Maintenance date: 2014-08-09
+installation_date = "2014-08-09"
+
+# Source: maintenance sheets/SCO_L_2024.pdf
+# Upgrade from v2 to v3_rewired.
+# Temperature/humidity assembly: Shipped = Y, Replaced = Y.
+decommission_date = "2024-08-12"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "60835530"
+source_file = "maintenance sheets/SCO_L_2014.pdf; maintenance sheets/SCO_L_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_2"
+station_id = "SCO_L"
+
+# Source: maintenance sheets/SCO_L_2024.pdf
+# Maintenance date: 2024-08-12
+# Upgrade from v2 to v3_rewired.
+# Temperature/humidity assembly: Shipped = Y, Replaced = Y.
+# HygroClip T/hum assembly = N.
+installation_date = "2024-08-12"
+
+# No later confirmed SCO_L RH/T replacement record reviewed.
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/SCO_L_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+# ============================================================
+# SCO_U
+# ============================================================
+
+[[sensor]]
+name = "instrument_3"
+station_id = "SCO_U"
+
+# Source: maintenance sheets/SCO_U_2014.pdf
+# Maintenance date: 2014-08-10
+# HygroClip serial recorded as 60837623.
+installation_date = "2014-08-10"
+
+# Source: maintenance sheets/SCO_U_2024.pdf
+# Upgrade from v2 to v3_rewired.
+# Temperature/humidity assembly shipped for the upgrade.
+decommission_date = "2024-08-13"
+
+instrument_type = "Rotronic/HygroClip"
+serial_number = "60837623"
+source_file = "maintenance sheets/SCO_U_2014.pdf; maintenance sheets/SCO_U_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_4"
+station_id = "SCO_U"
+
+# Source: maintenance sheets/SCO_U_2024.pdf
+# Maintenance date: 2024-08-13
+# Notes: Upgrade from v2 to v3_rewired, reuse some items from v2.
+# Temperature/humidity assembly = Y.
+# HygroClip T/hum assembly = N.
+installation_date = "2024-08-13"
+
+# No later confirmed SCO_U RH/T replacement record reviewed.
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/SCO_U_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
