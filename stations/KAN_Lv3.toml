@@ -1,0 +1,39 @@
+# KAN_Lv3 diagnostic RH instrument periods
+#
+# All #guess dates are temporary plotting boundaries.
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2023-01-01" #guess - temporary diagnostic start; exact RH installation date not verified
+decommission_date = "2024-01-01" #guess - diagnostic split
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "KAN_Lv3_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1a"
+installation_date = "2024-01-01" #guess - diagnostic split
+decommission_date = "2025-01-01" #guess - diagnostic split
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "KAN_Lv3_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1b"
+installation_date = "2025-01-01" #guess - diagnostic split
+decommission_date = "2026-01-01" #guess - diagnostic split
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "KAN_Lv3_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1c"
+installation_date = "2026-01-01" #guess - diagnostic split
+decommission_date = "NA"
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "KAN_Lv3_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"

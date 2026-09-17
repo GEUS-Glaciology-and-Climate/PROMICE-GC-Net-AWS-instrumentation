@@ -1,0 +1,86 @@
+# LYN_T diagnostic RH instrument periods
+#
+# IMPORTANT:
+# All dates below are guessed diagnostic boundaries.
+# They are NOT verified physical RH instrument-change dates.
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2018-01-01" #guess - diagnostic start
+decommission_date = "2019-01-01" #guess - year-wise diagnostic split
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1a"
+installation_date = "2019-01-01" #guess
+decommission_date = "2020-01-01" #guess
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1b"
+installation_date = "2020-01-01" #guess
+decommission_date = "2021-01-01" #guess
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1c"
+installation_date = "2021-01-01" #guess
+decommission_date = "2022-01-01" #guess
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1d"
+installation_date = "2022-01-01" #guess
+decommission_date = "2023-01-01" #guess
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1e"
+installation_date = "2023-01-01" #guess
+decommission_date = "2024-01-01" #guess
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1f"
+installation_date = "2024-01-01" #guess
+decommission_date = "2025-01-01" #guess
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1g"
+installation_date = "2025-01-01" #guess
+decommission_date = "2026-01-01" #guess
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+[[sensor]]
+name = "instrument_1h"
+installation_date = "2026-01-01" #guess
+decommission_date = "NA"
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "LYN_T_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"

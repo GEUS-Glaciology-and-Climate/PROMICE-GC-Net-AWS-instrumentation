@@ -1,0 +1,57 @@
+# MIT_B diagnostic RH instrument periods
+#
+# IMPORTANT:
+# MIT_B is treated separately from MIT.
+#
+# No MIT_B-specific exact RH installation/replacement dates
+# have been verified from the currently available documentation.
+#
+# All dates marked #guess are temporary diagnostic boundaries
+# used only to separate recalibration plots.
+#
+# DO NOT interpret #guess dates as physical sensor changes.
+
+
+[[sensor]]
+name = "instrument_1"
+
+#guess - temporary diagnostic start; exact MIT_B RH installation date not verified
+installation_date = "2024-01-01"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2025-01-01"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "MIT_B_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1a"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2025-01-01"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2026-01-01"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "MIT_B_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1b"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2026-01-01"
+
+# Open-ended diagnostic period
+decommission_date = "NA"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "MIT_B_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"

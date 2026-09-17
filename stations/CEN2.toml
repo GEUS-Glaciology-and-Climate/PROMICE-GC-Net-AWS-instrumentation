@@ -1,0 +1,96 @@
+# CEN2 diagnostic RH instrument periods
+#
+# Sources:
+# - CEN2_2022.pdf
+# - CEN2_2026.pdf
+#
+# PURPOSE:
+# Temporary year-wise segmentation for recalibration plots.
+#
+# IMPORTANT:
+# Dates marked #guess are NOT confirmed physical RH/T
+# installation or replacement dates.
+#
+# These boundaries are being introduced only to separate
+# visually different recalibration regimes.
+#
+# After plot inspection and maintenance verification,
+# these periods must be consolidated or replaced with
+# real instrument-change dates.
+
+
+[[sensor]]
+name = "instrument_1"
+
+#guess - 2022 working start derived from existing draft; exact RH installation date not verified
+installation_date = "2022-07-01"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2023-07-01"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN2_2022.pdf"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1a"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2023-07-01"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2024-07-01"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN2_2022.pdf"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1b"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2024-07-01"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2025-07-01"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN2_2022.pdf"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1c"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2025-07-01"
+
+#guess - temporary 2026 boundary for diagnostic plotting;
+# exact RH/T change date has NOT been verified
+decommission_date = "2026-06-09"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN2_2022.pdf; CEN2_2026.pdf"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_2"
+
+#guess - temporary proposed 2026 RH/T boundary;
+# exact installation date must still be verified
+installation_date = "2026-06-09"
+
+# Current/open diagnostic period.
+decommission_date = "NA"
+
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "CEN2_2026.pdf"
+parsing_confidence = "diagnostic_boundary_review_required"

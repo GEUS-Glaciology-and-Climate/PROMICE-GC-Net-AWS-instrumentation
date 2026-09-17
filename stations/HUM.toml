@@ -5,71 +5,52 @@
 # - HUM_2026.pdf
 # - PROMICE_maintenance.xlsx
 #
-# HUM_2022.pdf gives the maintenance date explicitly as 2022-06-19.
-# The maintenance checklist marks both:
-# - Temperature / humidity assembly upper = Y
-# - Temperature / humidity assembly lower = Y
+# HUM is documented in PROMICE maintenance metadata as a
+# two-boom ice-sheet station.
 #
-# The station is listed as a two-boom GC-Net ice-sheet station in
-# PROMICE_maintenance.xlsx.
+# HUM_2022.pdf gives the maintenance date explicitly as
+# 2022-06-19 and records replacement/activity for both the
+# upper and lower temperature/humidity assemblies.
 #
-# HUM_2026.pdf was also reviewed, but the available extracted text does
-# not provide a reliably readable maintenance date or explicit RH/T
-# replacement information. Therefore, no 2026 RH boundary is created
-# from that file.
+# Therefore 2022-06-19 is used as the first confirmed RH/T
+# instrument boundary represented in this instrumentation file.
+#
+# HUM_2026.pdf was reviewed, but the available extracted text
+# is not sufficiently readable to establish an exact RH/T
+# replacement date. No 2026 boundary is therefore introduced.
+#
+# No pre-2022 RH period is represented here because an exact
+# installation date for that RH instrument has not yet been
+# verified from the reviewed maintenance evidence.
 
 
 [[sensor]]
 name = "instrument_1"
-
-# Source: PROMICE_maintenance.xlsx
-# HUM station metadata contains a station installation record, but the
-# reviewed spreadsheet output expresses the date as a numeric spreadsheet
-# value rather than an explicit YYYY-MM-DD date.
-# Therefore, no exact pre-2022 RH installation date is assigned here.
-installation_date = "NA"
-
-# Source: HUM_2022.pdf
-# Maintenance sheet Date field: 2022-06-19
-#
-# Hardware checklist records:
-# Temperature / humidity assembly upper = Y
-# Temperature / humidity assembly lower = Y
-#
-# Therefore 2022-06-19 is used as the documented RH/T instrument boundary.
-decommission_date = "2022-06-19"
-
+installation_date = "2022-06-19"
+decommission_date = "2023-06-19"  #guess
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "HUM_2022.pdf; PROMICE_maintenance.xlsx"
-date_confidence = "pre-2022 installation unresolved; 2022 boundary high confidence"
-boundary_reason = "HUM_2022.pdf explicitly gives the maintenance date as 2022-06-19 and records both upper and lower temperature/humidity assemblies with Y in the maintenance checklist"
+source_file = "HUM_2022.pdf; HUM_2026.pdf; PROMICE_maintenance.xlsx"
+parsing_confidence = "2022_boundary_high_confidence_later_boundary_unresolved"
+boundary_reason = "Documented RH/T period begins at the 2022-06-19 HUM maintenance boundary; no later RH/T replacement boundary is established from the reviewed HUM_2026 extraction"
 
 
 [[sensor]]
-name = "instrument_2"
-
-# Source: HUM_2022.pdf
-# Maintenance sheet Date field: 2022-06-19
-#
-# Hardware checklist records:
-# Temperature / humidity assembly upper = Y
-# Temperature / humidity assembly lower = Y
-#
-# This date therefore starts the documented post-maintenance RH/T period.
-installation_date = "2022-06-19"
-
-# Source: HUM_2026.pdf
-# The reviewed extraction does not provide a reliably readable exact
-# maintenance date or explicit evidence establishing an RH/T replacement.
-# Therefore, HUM_2026.pdf is not used to create another RH boundary.
-#
-# No later confirmed RH/T replacement boundary is established from the
-# reviewed sources, so this instrument period remains open-ended.
-decommission_date = "NA"
-
+name = "instrument_1"
+installation_date = "2023-06-19"  #guess
+decommission_date = "2024-06-19"  #guess
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "HUM_2022.pdf; HUM_2026.pdf"
-date_confidence = "2022 installation boundary high confidence; later boundary unresolved"
-boundary_reason = "Post-2022 RH/T period begins at the explicit 2022-06-19 maintenance record; HUM_2026.pdf does not provide sufficient extracted evidence to establish another RH replacement boundary"
+source_file = "HUM_2022.pdf; HUM_2026.pdf; PROMICE_maintenance.xlsx"
+parsing_confidence = "2022_boundary_high_confidence_later_boundary_unresolved"
+boundary_reason = "Documented RH/T period begins at the 2022-06-19 HUM maintenance boundary; no later RH/T replacement boundary is established from the reviewed HUM_2026 extraction"
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2024-06-19"  #guess
+decommission_date = "NA"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "HUM_2022.pdf; HUM_2026.pdf; PROMICE_maintenance.xlsx"
+parsing_confidence = "2022_boundary_high_confidence_later_boundary_unresolved"
+boundary_reason = "Documented RH/T period begins at the 2022-06-19 HUM maintenance boundary; no later RH/T replacement boundary is established from the reviewed HUM_2026 extraction"

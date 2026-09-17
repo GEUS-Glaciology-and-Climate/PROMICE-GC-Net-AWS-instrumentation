@@ -1,0 +1,149 @@
+# CEN1 diagnostic RH instrument periods
+#
+# PURPOSE:
+# Temporary year-wise segmentation for recalibration plots.
+#
+# IMPORTANT:
+# Dates marked #guess are NOT confirmed physical instrument-change dates.
+# They are temporary analytical boundaries only.
+#
+# The CEN1 Level-2 CSV begins on 2017-07-24.
+# Therefore the first period begins at the observed CSV start.
+#
+# If maintenance information becomes available later,
+# replace these guessed boundaries with verified dates.
+
+
+[[sensor]]
+name = "instrument_1"
+
+# Observed start of the available CEN1 Level-2 CSV.
+installation_date = "2017-07-24"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2018-07-24"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1a"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2018-07-24"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2019-07-24"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1b"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2019-07-24"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2020-07-24"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1c"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2020-07-24"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2021-07-24"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1d"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2021-07-24"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2022-07-24"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1e"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2022-07-24"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2023-07-24"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1f"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2023-07-24"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2024-07-24"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1g"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2024-07-24"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2025-07-24"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"
+
+
+[[sensor]]
+name = "instrument_1h"
+
+#guess - year-wise diagnostic split; exact RH instrument-change date not verified
+installation_date = "2025-07-24"
+
+# No later verified instrument boundary.
+decommission_date = "NA"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "CEN1_hour.csv"
+parsing_confidence = "diagnostic_year_split_review_required"

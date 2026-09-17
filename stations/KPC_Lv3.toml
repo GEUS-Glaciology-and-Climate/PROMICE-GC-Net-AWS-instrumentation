@@ -1,0 +1,10 @@
+# KPC_Lv3 relative-humidity instrument periods
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2022-05-28"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/KPC_Lv3_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

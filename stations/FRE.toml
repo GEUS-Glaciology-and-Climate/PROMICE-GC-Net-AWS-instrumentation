@@ -1,116 +1,40 @@
 # FRE relative-humidity instrument periods
 #
-# Sources reviewed:
+# Station name in maintenance documentation: Freya
+#
+# Source reviewed:
 # - FRE_2025.docx
 #
-# Station name in the maintenance sheet: Freya
+# The maintenance visit is documented as occurring on
+# 19 April + 28 April 2025.
 #
-# The 2025 maintenance sheet lists two maintenance dates:
-# - 19 April
-# - 28 April
+# The maintenance checklist explicitly records the HygroClip
+# T/hum assembly as shipped = Y and replaced = Y.
 #
-# The sheet does not explicitly state which of these two dates
-# corresponds to the RH instrument replacement.
-#
-# The AWS hardware checklist explicitly records:
-#
-# HygroClip T/hum assembly
-#     Shipped = Y
-#     Replaced = Y
-#
-# The same entry identifies:
-#     Rotronics = Y
-#     New or old type = Square plug
-#
-# Therefore, the 2025 maintenance record provides clear evidence
-# that the Rotronic/HygroClip RH instrument was replaced.
-#
-# However, because the document gives two maintenance dates and does
-# not associate the replacement with one specific date, the exact
-# RH boundary remains unresolved.
-#
-# No date is guessed below.
+# Therefore the 2025 visit provides confirmed evidence of an
+# RH instrument replacement. The source does not identify
+# whether the replacement occurred specifically on 19 April
+# or 28 April, so 2025-04-19 is retained as the first documented
+# visit date and flagged for review.
 
 
 [[sensor]]
 name = "instrument_1"
-
-# Source: FRE_2025.docx
-#
-# FRE_2025.docx documents the RH instrument present before the
-# 2025 replacement but does not provide the original installation
-# date of that instrument.
-#
-# Therefore, the installation date cannot currently be determined
-# from the reviewed source.
-installation_date = "NA"
-
-# Source: FRE_2025.docx
-#
-# Maintenance sheet Date field:
-#     "19 april + 28 april"
-#
-# RH replacement evidence:
-#     HygroClip T/hum assembly
-#     Shipped = Y
-#     Replaced = Y
-#
-# Therefore, the pre-existing Rotronic/HygroClip instrument ended
-# during the documented 2025 maintenance activity.
-#
-# The source does not specify whether the replacement happened on
-# 19 April or 28 April, so the exact decommission date is unresolved.
-decommission_date = "NA"
-
+installation_date = "2025-01-01" #guess
+decommission_date = "2025-04-19"
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
-
 source_file = "FRE_2025.docx"
-
-date_confidence = "RH replacement high confidence; exact date unresolved between 19 April and 28 April"
-
-boundary_reason = "HygroClip T/hum assembly explicitly marked Shipped = Y and Replaced = Y in FRE_2025.docx; exact replacement date cannot be assigned to either listed maintenance date"
+parsing_confidence = "visit_range_boundary_review_required"
+boundary_reason = "FRE_2025 documents the maintenance visit as 19 April + 28 April 2025 and explicitly marks the HygroClip T/hum assembly as replaced"
 
 
 [[sensor]]
 name = "instrument_2"
-
-# Source: FRE_2025.docx
-#
-# Maintenance sheet Date field:
-#     "19 april + 28 april"
-#
-# RH hardware checklist:
-#     HygroClip T/hum assembly
-#     Shipped = Y
-#     Replaced = Y
-#
-# Sensor information:
-#     Rotronics = Y
-#     New or old type = Square plug
-#
-# This establishes the beginning of a new Rotronic/HygroClip RH
-# instrument period during the 2025 maintenance activity.
-#
-# The document does not identify whether installation occurred on
-# 19 April or 28 April.
-#
-# Therefore, the exact installation date remains unresolved.
-installation_date = "NA"
-
-# Source: currently reviewed FRE maintenance records
-#
-# No later confirmed RH/T replacement record is established by
-# FRE_2025.docx.
-#
-# Therefore, the current RH instrument period remains open-ended.
+installation_date = "2025-04-19"
 decommission_date = "NA"
-
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
-
 source_file = "FRE_2025.docx"
-
-date_confidence = "RH replacement high confidence; exact installation date unresolved between 19 April and 28 April"
-
-boundary_reason = "New Rotronic/HygroClip documented by the HygroClip T/hum assembly entry marked Shipped = Y and Replaced = Y; sensor type recorded as Rotronics with Square plug"
+parsing_confidence = "visit_range_boundary_review_required"
+boundary_reason = "New HygroClip T/hum assembly follows the replacement documented during the 19 April + 28 April 2025 Freya maintenance visit"

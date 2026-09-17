@@ -7,37 +7,30 @@
 #
 # 2014:
 # Maintenance sheet date is written as 31.7.
-# The sheet records HygroClip replacement:
-# old serial 61012684 -> new serial 61180279.
-# The year is taken from MIT_2014.pdf.
+# HygroClip replacement is documented.
 #
 # 2015:
-# On 11/8-2015 the MIT station was taken down because it was in very
-# bad condition.
-# On 13/8-2015 the station was revisited and the old TAS_U station
-# was installed at MIT.
+# 2015-08-11: station taken down.
+# 2015-08-13: station revisited and old TAS_U station installed.
 #
 # 2021:
-# Maintenance visits are explicitly dated 4/9-21 and 7/9-21.
-# The standard Temperature / humidity assembly is marked N.
-# The HygroClip in T/hum assembly is marked Y.
-# This documents HygroClip activity but the extracted sheet does not
-# provide a reliable replacement serial number for a new RH period.
+# Maintenance visits are documented on 2021-09-04 and 2021-09-07.
+# HygroClip activity is documented, but the exact replacement
+# boundary is unresolved.
+#
+# IMPORTANT:
+# No guessed 2021 instrument boundary is introduced here.
 
 
 [[sensor]]
 name = "instrument_1"
 
-# Source: MIT_2014.pdf
-# Maintenance date field: 31.7
-# Filename gives year 2014 -> 2014-07-31.
-# Existing HygroClip serial: 61012684.
+# EXACT
+# MIT_2014 maintenance date: 31.7
 installation_date = "2014-07-31"
 
-# Source: MIT_2015.pdf
-# Date: 11/8-2015
-# Notes explicitly state:
-# "Station taken down."
+# EXACT
+# MIT_2015: station taken down on 11/8-2015
 decommission_date = "2015-08-11"
 
 instrument_type = "Rotronic/HygroClip"
@@ -49,19 +42,12 @@ parsing_confidence = "exact_maintenance_sheet_date"
 [[sensor]]
 name = "instrument_2"
 
-# Source: MIT_2015.pdf
-# Date: 13/8-2015
-# Notes explicitly state:
-# "Visit again"
-# "Set up old TAS_U station"
+# EXACT
+# MIT_2015: old TAS_U station installed at MIT on 13/8-2015
 installation_date = "2015-08-13"
 
-# Source: MIT_2021.pdf
-# Maintenance visits: 4/9-21 and 7/9-21.
-# Temperature / humidity assembly = N.
-# HygroClip in T/hum assembly = Y.
-# Exact HygroClip replacement date within the two visits is not explicit,
-# therefore 2021-09-04 is not used as a new boundary here.
+# Open-ended because the exact 2021 HygroClip replacement
+# boundary is not established from the current information.
 decommission_date = "NA"
 
 instrument_type = "Rotronic/HygroClip"

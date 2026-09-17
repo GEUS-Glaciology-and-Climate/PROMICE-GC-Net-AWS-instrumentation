@@ -66,10 +66,19 @@ source_file = "DY2_2023_2.pdf; DY2_2024_2.pdf; DY2_2025.pdf"
 date_confidence = "high for 2023 boundary; 2025 date transcribed from maintenance sheet"
 boundary_reason = "Upper and lower temperature/humidity assemblies replaced during the 2023 maintenance visit; 2024 records no RH replacement"
 
-
 [[sensor]]
 name = "instrument_1c"
-installation_date = "2025-05-12"
+installation_date = "2023-06-19"
+decommission_date = "2024-05-12" #guess
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "DY2_2023_2.pdf; DY2_2024_2.pdf; DY2_2025.pdf"
+date_confidence = "high for 2023 boundary; 2025 date transcribed from maintenance sheet"
+boundary_reason = "Upper and lower temperature/humidity assemblies replaced during the 2023 maintenance visit; 2024 records no RH replacement"
+
+[[sensor]]
+name = "instrument_1d"
+installation_date = "2024-05-12"  #guess
 decommission_date = "2026-04-30"
 instrument_type = "Lufft"
 serial_number = "NA"

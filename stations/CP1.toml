@@ -36,6 +36,15 @@ parsing_confidence = "installation date is start of Level 2 record, not confirme
 [[sensor]]
 name = "instrument_2"
 installation_date = "2022-06-15"
+decommission_date = "2023-05-25"  #guess
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "CP1_2022.pdf; CP1_2023.jpg; CP1_2023_2.jpg; CP1_2024.pdf"
+parsing_confidence = "confirmed from maintenance sheets"
+
+[[sensor]]
+name = "instrument_2a"
+installation_date = "2023-06-15" #guess
 decommission_date = "2024-05-25"
 instrument_type = "Lufft"
 serial_number = "NA"
@@ -45,6 +54,15 @@ parsing_confidence = "confirmed from maintenance sheets"
 [[sensor]]
 name = "instrument_3"
 installation_date = "2024-05-25"
+decommission_date = "2025-05-08"  #guess
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "CP1_2024.pdf; CP1_2025.pdf; CP1_2026.docx"
+parsing_confidence = "confirmed start and end dates; 2025 visit date not resolved"
+
+[[sensor]]
+name = "instrument_3a"
+installation_date = "2025-05-25"  #guess
 decommission_date = "2026-05-08"
 instrument_type = "Lufft"
 serial_number = "NA"
