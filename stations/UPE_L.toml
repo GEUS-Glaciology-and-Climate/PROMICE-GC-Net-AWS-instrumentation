@@ -1,38 +1,31 @@
 # First-draft diagnostic instrument database for UPE_L
 #
-# Automatically created from:
+# Source:
 # - UPE_L_hour.csv
+# - PROMICE_maintenance.xls
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
-#
-# First CSV timestamp:
+# First Level-2 CSV timestamp:
 # 2009-08-17 20:00:00
 #
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
+# Recorded maintenance dates:
+# 2009-08-17
+# 2011-07-20
+# 2012-08-12
+# 2013-08-02
+# 2015-08-01
+# 2017-08-25
+# 2018-08-04
+# 2020-08-08
+# 2023-08-07
 #
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# These maintenance dates do not by themselves confirm RH/T
+# instrument replacement boundaries.
 
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
 installation_date = "2009-08-17"
-
-# No verified physical RH decommission date.
 decommission_date = "NA"
-
 instrument_type = "NA"
 serial_number = "NA"
-source_file = "UPE_L_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "UPE_L_hour.csv; PROMICE_maintenance.xls"
+parsing_confidence = "csv_data_start_reviewed; maintenance_dates_reviewed_but_RH_change_not_confirmed"

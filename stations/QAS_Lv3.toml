@@ -1,38 +1,8 @@
-# First-draft diagnostic instrument database for QAS_Lv3
-#
-# Automatically created from:
-# - QAS_Lv3_hour.csv
-#
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
-#
-# First CSV timestamp:
-# 2022-08-29 19:00:00
-#
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
-
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
-installation_date = "2022-08-29"
-
-# No verified physical RH decommission date.
+installation_date = "2025-09-02"
 decommission_date = "NA"
-
-instrument_type = "NA"
+instrument_type = "Lufft"
 serial_number = "NA"
-source_file = "QAS_Lv3_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "QAS_Lv3_hour.csv; maintenance sheets/QAS_L_2022.pdf; maintenance sheets/QAS_Lv3_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

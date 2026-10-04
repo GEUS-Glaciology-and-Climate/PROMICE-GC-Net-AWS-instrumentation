@@ -9,6 +9,162 @@
 # ============================================================
 
 
+# First-draft diagnostic instrument database for TAS_U
+#
+# Automatically created from:
+# - TAS_U_hour.csv
+#
+# IMPORTANT:
+# No verified RH maintenance-sheet dates were available when
+# this first-draft TOML was generated.
+#
+# The installation date below is derived from the first timestamp
+# present in the Level-2 hourly CSV.
+#
+# This is NOT a verified physical RH sensor installation date.
+#
+# First CSV timestamp:
+# 2011-08-10 20:00:00
+#
+# Last CSV timestamp:
+# 2015-08-13 14:00:00
+#
+# The period remains open-ended because the end of the available
+# CSV record does not establish physical sensor decommissioning.
+
+[[sensor]]
+name = "instrument_1"
+
+# GUESS - CSV data-start boundary only.
+# Exact physical RH installation date not verified.
+installation_date = "2011-08-10"
+
+# No verified physical RH decommission date.
+decommission_date = "NA"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "TAS_U_hour.csv"
+parsing_confidence = "csv_data_start_reviewed"
+
+
+# First-draft diagnostic instrument database for TAS_L
+#
+# Automatically created from:
+# - TAS_L_hour.csv
+#
+# IMPORTANT:
+# No verified RH maintenance-sheet dates were available when
+# this first-draft TOML was generated.
+#
+# The installation date below is derived from the first timestamp
+# present in the Level-2 hourly CSV.
+#
+# This is NOT a verified physical RH sensor installation date.
+#
+# First CSV timestamp:
+# 2007-08-23 16:00:00
+#
+# Last CSV timestamp:
+# 2026-08-20 15:00:00
+#
+# The period remains open-ended because the end of the available
+# CSV record does not establish physical sensor decommissioning.
+
+[[sensor]]
+name = "instrument_1"
+
+# GUESS - CSV data-start boundary only.
+# Exact physical RH installation date not verified.
+installation_date = "2007-08-23"
+
+# No verified physical RH decommission date.
+decommission_date = "NA"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "TAS_L_hour.csv"
+parsing_confidence = "csv_data_start_reviewed"
+
+
+# First-draft diagnostic instrument database for TAS_Av3
+#
+# Automatically created from:
+# - TAS_Av3_hour.csv
+#
+# IMPORTANT:
+# No verified RH maintenance-sheet dates were available when
+# this first-draft TOML was generated.
+#
+# The installation date below is derived from the first timestamp
+# present in the Level-2 hourly CSV.
+#
+# This is NOT a verified physical RH sensor installation date.
+#
+# First CSV timestamp:
+# 2024-09-03 15:00:00
+#
+# Last CSV timestamp:
+# 2026-08-20 15:00:00
+#
+# The period remains open-ended because the end of the available
+# CSV record does not establish physical sensor decommissioning.
+
+[[sensor]]
+name = "instrument_1"
+
+# GUESS - CSV data-start boundary only.
+# Exact physical RH installation date not verified.
+installation_date = "2024-09-03"
+
+# No verified physical RH decommission date.
+decommission_date = "NA"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "TAS_Av3_hour.csv"
+parsing_confidence = "csv_data_start_reviewed"
+
+
+# First-draft diagnostic instrument database for TAS_A
+#
+# Automatically created from:
+# - TAS_A_hour.csv
+#
+# IMPORTANT:
+# No verified RH maintenance-sheet dates were available when
+# this first-draft TOML was generated.
+#
+# The installation date below is derived from the first timestamp
+# present in the Level-2 hourly CSV.
+#
+# This is NOT a verified physical RH sensor installation date.
+#
+# First CSV timestamp:
+# 2013-08-27 19:00:00
+#
+# Last CSV timestamp:
+# 2024-09-09 15:00:00
+#
+# The period remains open-ended because the end of the available
+# CSV record does not establish physical sensor decommissioning.
+
+[[sensor]]
+name = "instrument_1"
+
+# GUESS - CSV data-start boundary only.
+# Exact physical RH installation date not verified.
+installation_date = "2013-08-27"
+
+# No verified physical RH decommission date.
+decommission_date = "NA"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "TAS_A_hour.csv"
+parsing_confidence = "csv_data_start_reviewed"
+
+
 # ============================================================
 # TAS_A
 # ============================================================
@@ -17,14 +173,14 @@
 name = "instrument_1"
 station_id = "TAS_A"
 
-installation_date = "2013-07-01"
+installation_date = "2013-08-27"
 decommission_date = "2014-08-02"
 
 instrument_type = "Rotronic/HygroClip"
 serial_number = "60956910"
 
-source_file = "maintenance sheets/TAS_A_2014.pdf"
-parsing_confidence = "installation_filename_year_only_review_required; decommission_date_from_2014_visit_context"
+source_file = "maintenance sheets/TAS_A_2013.docx; maintenance sheets/TAS_A_2014.pdf"
+parsing_confidence = "exact_initial_installation_date; decommission_date_from_2014_visit_context"
 
 
 [[sensor]]
@@ -101,7 +257,6 @@ source_file = "maintenance sheets/TAS_A_2024.pdf"
 parsing_confidence = "exact_maintenance_sheet_date"
 
 
-
 # ============================================================
 # TAS_L
 # ============================================================
@@ -176,7 +331,6 @@ source_file = "maintenance sheets/TAS_L_2024.pdf"
 parsing_confidence = "exact_maintenance_sheet_date"
 
 
-
 # ============================================================
 # TAS_U
 # ============================================================
@@ -185,10 +339,9 @@ parsing_confidence = "exact_maintenance_sheet_date"
 name = "instrument_12"
 station_id = "TAS_U"
 
-# 2014 maintenance sheet identifies the existing
-# temperature/humidity assembly as 6/2011.
-# Exact installation day is not available.
-installation_date = "2011-07-01"
+# Exact initial date supplied for TAS_U and aligned with the
+# first available Level-2 timestamp.
+installation_date = "2011-08-10"
 
 # TAS_U maintenance note explicitly records:
 # 13/8-2015 - Taken down.
@@ -198,4 +351,4 @@ instrument_type = "Rotronic/HygroClip"
 serial_number = "5502517"
 
 source_file = "maintenance sheets/TAS_U_2014.pdf; maintenance sheets/TAS_U_2015.pdf"
-parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"
+parsing_confidence = "exact_initial_date; exact_decommission_date"

@@ -1,28 +1,27 @@
 # JAR relative-humidity instrument periods
 #
 # Sources reviewed:
-# - JAR_2022.pdf
-# - JAR_2025.pdf
-# - JAR_2025_2.pdf
+# - maintenance sheets/JAR_2022.pdf
+# - maintenance sheets/JAR_2025.pdf
+# - maintenance sheets/JAR_2025_2.pdf
 #
-# JAR and JAR_O are treated as separate stations.
+# JAR_2022.pdf:
+# Date = 2022-08-03.
+# The sheet identifies the new JAR/JAR-U v3 site and records
+# temperature/humidity instrumentation.
 #
-# JAR_2022.pdf documents RH/T instrumentation.
-#
-# The 2025 field report documents Lufft replacement activity,
-# but the currently reviewed evidence does not establish an
-# independently explicit JAR-specific YYYY-MM-DD replacement
-# boundary.
+# The 2025 field reports contain Lufft replacement activity at
+# the field sites, but no independently explicit JAR-specific
+# dated RH/T replacement boundary is established.
 #
 # Therefore no unsupported 2025 JAR boundary is introduced.
 
-
 [[sensor]]
 name = "instrument_1"
-installation_date = "2022-01-01"
+installation_date = "2022-08-03"
 decommission_date = "NA"
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "JAR_2022.pdf; JAR_2025.pdf; JAR_2025_2.pdf"
-parsing_confidence = "filename_year_only_review_required"
-boundary_reason = "JAR RH/T instrumentation is documented, but exact installation and subsequent JAR-specific replacement dates remain unresolved from the reviewed evidence"
+source_file = "maintenance sheets/JAR_2022.pdf; maintenance sheets/JAR_2025.pdf; maintenance sheets/JAR_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date; later_JAR_specific_RH_boundary_unresolved"
+boundary_reason = "JAR_2022.pdf records the new JAR/JAR-U v3 station and temperature/humidity instrumentation on 2022-08-03; no independently explicit later JAR-specific RH/T replacement date is established by the reviewed 2025 reports"

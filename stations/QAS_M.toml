@@ -1,38 +1,17 @@
-# First-draft diagnostic instrument database for QAS_M
-#
-# Automatically created from:
-# - QAS_M_hour.csv
-#
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
-#
-# First CSV timestamp:
-# 2016-08-11 17:00:00
-#
-# Last CSV timestamp:
-# 2023-09-01 18:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
-
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
-installation_date = "2016-08-11"
-
-# No verified physical RH decommission date.
-decommission_date = "NA"
-
-instrument_type = "NA"
+installation_date = "2017-08-24"
+decommission_date = "2022-08-30"
+instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "QAS_M_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "maintenance sheets/QAS_M_2017.pdf; maintenance sheets/QAS_M_2021.pdf; maintenance sheets/QAS_M_2022.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2022-08-30"
+decommission_date = "NA"
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_M_2022.pdf; maintenance sheets/QAS_Mv3_2024.pdf"
+parsing_confidence = "exact_installation_date; decommission_date_review   ed"

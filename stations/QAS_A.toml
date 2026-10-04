@@ -1,38 +1,16 @@
-# First-draft diagnostic instrument database for QAS_A
+# QAS_A relative-humidity instrument periods
 #
-# Automatically created from:
-# - QAS_A_hour.csv
+# Source reviewed:
+# - maintenance sheets/QAS_A_2014.pdf
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
-#
-# First CSV timestamp:
-# 2012-08-20 17:00:00
-#
-# Last CSV timestamp:
-# 2015-08-24 17:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# Maintenance date:
+# - 2014-08-23
 
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
-installation_date = "2012-08-20"
-
-# No verified physical RH decommission date.
+installation_date = "2014-08-23"
 decommission_date = "NA"
-
-instrument_type = "NA"
+instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "QAS_A_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "maintenance sheets/QAS_A_2014.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

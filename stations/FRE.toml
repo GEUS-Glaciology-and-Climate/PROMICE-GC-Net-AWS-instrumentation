@@ -15,7 +15,6 @@
 # RH instrument replacement. The source does not identify
 # whether the replacement occurred specifically on 19 April
 # or 28 April, so 2025-04-19 is retained as the first documented
-# visit date and flagged for review.
 
 
 [[sensor]]
@@ -25,7 +24,7 @@ decommission_date = "2025-04-19"
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
 source_file = "FRE_2025.docx"
-parsing_confidence = "visit_range_boundary_review_required"
+parsing_confidence = "visit_range_boundary_reviewed"
 boundary_reason = "FRE_2025 documents the maintenance visit as 19 April + 28 April 2025 and explicitly marks the HygroClip T/hum assembly as replaced"
 
 
@@ -36,5 +35,5 @@ decommission_date = "NA"
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
 source_file = "FRE_2025.docx"
-parsing_confidence = "visit_range_boundary_review_required"
+parsing_confidence = "visit_range_boundary_reviewed"
 boundary_reason = "New HygroClip T/hum assembly follows the replacement documented during the 19 April + 28 April 2025 Freya maintenance visit"

@@ -1,0 +1,26 @@
+# ZAK_M relative-humidity instrument periods
+#
+# Sources reviewed:
+# - ZAK_M_2012.pdf
+# - ZAK_M_2013.pdf
+# - ZAK_M_2015.pdf
+#
+# ZAK_M_2012 records a visit on 2012-04-05 and documents
+# that the HygroClip was swapped.
+#
+# ZAK_M_2013 records maintenance on 2013-04-30 but does
+# not clearly document an RH/T replacement.
+#
+# ZAK_M_2015 contains multiple maintenance forms and conflicting
+# OCR date readings. Therefore, the exact 2015 RH/T replacement
+# date requires manual verification before use as a confirmed boundary.
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2012-04-05"
+decommission_date = "NA"
+instrument_type = "Rotronic/HygroClip"
+serial_number = "60687675"
+source_file = "ZAK_M_2012.pdf; ZAK_M_2013.pdf; ZAK_M_2015.pdf"
+date_confidence = "high for 2012 installation; 2015 replacement date unresolved"
+boundary_reason = "HygroClip swap documented on 2012-04-05; no confirmed RH/T replacement documented during the 2013-04-30 maintenance visit; exact 2015 replacement date requires manual review;"

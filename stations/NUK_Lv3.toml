@@ -1,38 +1,33 @@
-# First-draft diagnostic instrument database for NUK_Lv3
+# NUK_Lv3 relative-humidity instrument periods
 #
-# Automatically created from:
+# Sources:
 # - NUK_Lv3_hour.csv
+# - maintenance sheets/NUK_Lv3_2025.pdf
+# - maintenance sheets/NUK_Lv3_2026.pdf
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
+# Maintenance dates:
+# - 2025-06-07
+# - 2026-06-22
 #
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
+# On 2025-06-07, a new station was installed and the
+# temperature/humidity assembly was marked replaced.
 #
-# This is NOT a verified physical RH sensor installation date.
-#
-# First CSV timestamp:
-# 2025-06-07 14:00:00
-#
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# On 2026-06-22, the Lufft was marked replaced.
 
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
 installation_date = "2025-06-07"
-
-# No verified physical RH decommission date.
-decommission_date = "NA"
-
-instrument_type = "NA"
+decommission_date = "2026-06-22"
+instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "NUK_Lv3_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "maintenance sheets/NUK_Lv3_2025.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2026-06-22"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_Lv3_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

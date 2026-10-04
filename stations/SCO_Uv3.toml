@@ -1,38 +1,23 @@
-# First-draft diagnostic instrument database for SCO_Uv3
+# SCO_Uv3 relative-humidity instrument periods
 #
-# Automatically created from:
+# Sources:
 # - SCO_Uv3_hour.csv
+# - maintenance sheets/SCO_U_2024.pdf
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
-#
-# First CSV timestamp:
+# First Level-2 CSV timestamp:
 # 2024-08-13 14:00:00
-#
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
 
 [[sensor]]
 name = "instrument_1"
 
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
+# Source: SCO_U_2024.pdf
+# Maintenance date: 2024-08-13
+# Upgrade from v2 to v3_rewired.
 installation_date = "2024-08-13"
 
-# No verified physical RH decommission date.
 decommission_date = "NA"
 
-instrument_type = "NA"
+instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "SCO_Uv3_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "SCO_Uv3_hour.csv; maintenance sheets/SCO_U_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

@@ -1,29 +1,79 @@
 # First-draft instrument database for NAE
-# Exact maintenance dates verified from the maintenance sheets/images.
+#
+# Sources reviewed:
+# - maintenance sheets/NAE_2022.pdf
+# - maintenance sheets/NAE_2023.jpg
+# - maintenance sheets/NAE_2023_2.jpg
+# - maintenance sheets/NAE_2023_3.jpg
+# - maintenance sheets/NAE_2023_4.jpg
+# - maintenance sheets/NAE_2024.jpg
+# - maintenance sheets/NAE_2024_2.jpg
+# - maintenance sheets/NAE_2026.pdf
+#
+# 2022:
+# Maintenance date = 2022-05-26.
+#
+# 2023:
+# Maintenance date = 2023-06-23.
+# Upper and lower temperature/humidity assemblies replaced.
+#
+# 2024:
+# Maintenance date = 2024-06-13.
+# Upgrade from GC-Net AWS v3 to GC-Net AWS v4 (Vaisala).
+#
+# 2026:
+# Maintenance date = 2026-06-11.
+# Vaisala upper replaced.
+# Vaisala lower retained as old sensor.
 
 [[sensor]]
 name = "instrument_1"
+
 installation_date = "2022-05-26"
 decommission_date = "2023-06-23"
+
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "maintenance sheets/NAE_2022.pdf"
 parsing_confidence = "exact_maintenance_sheet_date"
 
+
 [[sensor]]
 name = "instrument_2"
+
 installation_date = "2023-06-23"
 decommission_date = "2024-06-13"
+
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "maintenance sheets/NAE_2023.jpg; maintenance sheets/NAE_2023_2.jpg; maintenance sheets/NAE_2023_3.jpg; maintenance sheets/NAE_2023_4.jpg"
 parsing_confidence = "exact_maintenance_sheet_date"
 
+
 [[sensor]]
 name = "instrument_3"
+
 installation_date = "2024-06-13"
-decommission_date = "NA"
+decommission_date = "2026-06-11"
+
 instrument_type = "Vaisala"
 serial_number = "NA"
 source_file = "maintenance sheets/NAE_2024.jpg; maintenance sheets/NAE_2024_2.jpg; maintenance sheets/NAE_2026.pdf"
 parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_4"
+
+# Source: NAE_2026.pdf
+# Date: 11 June 2026
+# Vaisala upper replaced.
+# Vaisala lower retained as old sensor.
+installation_date = "2026-06-11"
+
+decommission_date = "NA"
+
+instrument_type = "Vaisala"
+serial_number = "NA"
+source_file = "maintenance sheets/NAE_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date; upper_sensor_replaced_only"

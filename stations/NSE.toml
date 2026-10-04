@@ -1,54 +1,129 @@
 # First-draft instrument database for NSE
+#
+# Sources reviewed:
+# - maintenance sheets/NSE_2021.pdf
+# - maintenance sheets/NSE_2021_2.pdf
+# - maintenance sheets/NSE_2022.pdf
+# - maintenance sheets/NSE_2023.pdf
+# - maintenance sheets/NSE_2023_2.pdf
+# - maintenance sheets/NSE_2024.pdf
+# - maintenance sheets/NSE_2025.pdf
+# - maintenance sheets/NSE_2025_2.jpg
+# - maintenance sheets/NSE_2025_3.jpg
+# - maintenance sheets/NSE_2026.docx
+#
+# Dates reviewed:
+# - 2021-06-19: NSE field work documented, but not confirmed
+#   as an RH/T replacement boundary.
+# - 2022-06-23: upper temperature/humidity assembly replaced.
+# - 2023-06-09: NSE 2023 maintenance/upgrade visit.
+# - 2024-05-21: upper and lower temperature/humidity assemblies replaced.
+# - 2025-05-20: upper and lower Lufft assemblies replaced.
+# - 2026-05-01: upper and lower Lufft sensors replaced.
 
 [[sensor]]
 name = "instrument_1"
+
+# Existing filename-year fallback retained.
+# NSE field work is documented on 2021-06-19, but the source does
+# not explicitly establish RH/T installation or replacement.
 installation_date = "2021-07-01"
+
+# Source: NSE_2022.pdf
+# Date: 23-06-2022
+# Upper temperature/humidity assembly: Shipped = Y, Replaced = Y
 decommission_date = "2022-06-23"
+
 instrument_type = "NA"
 serial_number = "NA"
-source_file = "maintenance sheets/NSE_2021.pdf; maintenance sheets/NSE_2021_2.pdf"
-parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"
+source_file = "maintenance sheets/NSE_2021.pdf; maintenance sheets/NSE_2021_2.pdf; maintenance sheets/NSE_2022.pdf"
+parsing_confidence = "installation_filename_year_reviewed; exact_decommission_date"
+
 
 [[sensor]]
 name = "instrument_2"
+
+# Source: NSE_2022.pdf
+# Date: 23-06-2022
 installation_date = "2022-06-23"
+
+# Source: NSE_2023_2.pdf
+# Date: 09 JUN 2023
 decommission_date = "2023-06-09"
+
 instrument_type = "Lufft"
 serial_number = "NA"
-source_file = "maintenance sheets/NSE_2022.pdf"
+source_file = "maintenance sheets/NSE_2022.pdf; maintenance sheets/NSE_2023_2.pdf"
 parsing_confidence = "exact_maintenance_sheet_date"
+
 
 [[sensor]]
 name = "instrument_3"
+
+# Source: NSE_2023_2.pdf
+# Date: 09 JUN 2023
 installation_date = "2023-06-09"
+
+# Source: NSE_2024.pdf
+# Date: 21/5-2024
+# Upper and lower temperature/humidity assemblies replaced.
 decommission_date = "2024-05-21"
+
 instrument_type = "Lufft"
 serial_number = "NA"
-source_file = "maintenance sheets/NSE_2023_2.pdf"
+source_file = "maintenance sheets/NSE_2023_2.pdf; maintenance sheets/NSE_2024.pdf"
 parsing_confidence = "exact_maintenance_sheet_date"
+
 
 [[sensor]]
 name = "instrument_4"
+
+# Source: NSE_2024.pdf
+# Date: 21/5-2024
+# Upper and lower temperature/humidity assemblies replaced.
 installation_date = "2024-05-21"
+
+# Source: NSE_2025.pdf / NSE_2025_2.jpg / NSE_2025_3.jpg
+# Date: 20 May 2025
+# Upper and lower Lufft assemblies replaced.
 decommission_date = "2025-05-20"
+
 instrument_type = "Lufft"
 serial_number = "NA"
-source_file = "maintenance sheets/NSE_2024.pdf"
+source_file = "maintenance sheets/NSE_2024.pdf; maintenance sheets/NSE_2025.pdf; maintenance sheets/NSE_2025_2.jpg; maintenance sheets/NSE_2025_3.jpg"
 parsing_confidence = "exact_maintenance_sheet_date"
+
 
 [[sensor]]
 name = "instrument_5"
+
+# Source: NSE_2025.pdf / NSE_2025_2.jpg / NSE_2025_3.jpg
+# Date: 20 May 2025
 installation_date = "2025-05-20"
+
+# Source: NSE_2026.docx
+# Date: 01-05-2026
+# Lufft upper: Replace = Yes
+# Lufft lower: Replace = Yes
 decommission_date = "2026-05-01"
+
 instrument_type = "Lufft"
 serial_number = "NA"
-source_file = "maintenance sheets/NSE_2025.pdf; maintenance sheets/NSE_2025_2.jpg; maintenance sheets/NSE_2025_3.jpg"
+source_file = "maintenance sheets/NSE_2025.pdf; maintenance sheets/NSE_2025_2.jpg; maintenance sheets/NSE_2025_3.jpg; maintenance sheets/NSE_2026.docx"
 parsing_confidence = "exact_maintenance_sheet_date"
+
 
 [[sensor]]
 name = "instrument_6"
+
+# Source: NSE_2026.docx
+# Date: 01-05-2026
+# Lufft upper: Replace = Yes
+# Lufft lower: Replace = Yes
 installation_date = "2026-05-01"
+
 decommission_date = "NA"
+
 instrument_type = "Lufft"
 serial_number = "NA"
 source_file = "maintenance sheets/NSE_2026.docx"

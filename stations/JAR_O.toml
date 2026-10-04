@@ -1,44 +1,49 @@
 # JAR_O relative-humidity instrument periods
 #
 # Sources reviewed:
-# - JAR_O_2022.pdf
-# - JAR_O_2024.pdf
-# - JAR_2025.pdf
-# - JAR_2025_2.pdf
+# - maintenance sheets/JAR_O_2022.pdf
+# - maintenance sheets/JAR_O_2024.pdf
+# - maintenance sheets/JAR O maintenance sheets 20250820.pdf
+# - maintenance sheets/JAR_2025.pdf
+# - maintenance sheets/JAR_2025_2.pdf
 #
-# JAR_O_2022.pdf documents existing temperature/humidity
-# instrumentation, but the original installation date is not
-# reliably recoverable from the reviewed extraction.
+# 2022:
+# Maintenance date = 2022-08-03.
 #
-# JAR_O_2024.pdf documents the JAR_O station and RH/T
-# instrumentation, but does not provide sufficiently clear
-# replacement evidence to introduce a 2024 RH boundary.
+# 2024:
+# Maintenance date = 2024-08-19.
+# Temperature/humidity assembly: Shipped = Y, Replaced = Y.
 #
-# The 2025 field report explicitly reports Lufft replacement
-# activity at both field sites and records a JAR_O maintenance
-# entry dated 2025-08-20.
-#
-# Therefore 2025-08-20 is used as the documented JAR_O
-# RH instrument boundary.
-
+# 2025:
+# Maintenance date = 2025-08-20.
+# Field report documents Lufft replacement activity at both sites.
 
 [[sensor]]
 name = "instrument_1"
-installation_date = "2022-01-01"
-decommission_date = "2025-08-20"
+installation_date = "2022-08-03"
+decommission_date = "2024-08-19"
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "JAR_O_2022.pdf; JAR_O_2024.pdf; JAR_2025.pdf; JAR_2025_2.pdf"
-parsing_confidence = "filename_year_only_review_required"
-boundary_reason = "Pre-2025 RH/T instrumentation retained until the documented August 2025 Lufft replacement; exact original installation date requires review"
-
+source_file = "maintenance sheets/JAR_O_2022.pdf; maintenance sheets/JAR_O_2024.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+boundary_reason = "JAR_O_2022.pdf records the station on 2022-08-03; JAR_O_2024.pdf documents the next temperature/humidity assembly replacement on 2024-08-19"
 
 [[sensor]]
 name = "instrument_2"
+installation_date = "2024-08-19"
+decommission_date = "2025-08-20"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/JAR_O_2024.pdf; maintenance sheets/JAR_2025.pdf; maintenance sheets/JAR_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+boundary_reason = "JAR_O_2024.pdf marks the temperature/humidity assembly as replaced on 2024-08-19; the 2025 field report documents the subsequent Lufft replacement on 2025-08-20"
+
+[[sensor]]
+name = "instrument_3"
 installation_date = "2025-08-20"
 decommission_date = "NA"
 instrument_type = "Lufft"
 serial_number = "NA"
-source_file = "JAR_2025.pdf; JAR_2025_2.pdf"
-parsing_confidence = "high"
-boundary_reason = "2025 field report documents Lufft replacement activity and records the JAR_O maintenance entry dated 2025-08-20"
+source_file = "maintenance sheets/JAR O maintenance sheets 20250820.pdf; maintenance sheets/JAR_2025.pdf; maintenance sheets/JAR_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+boundary_reason = "The dedicated JAR_O maintenance sheet is dated 2025-08-20, and the 2025 field report records Lufft replacement activity"

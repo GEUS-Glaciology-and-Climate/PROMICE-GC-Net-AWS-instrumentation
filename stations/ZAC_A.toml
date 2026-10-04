@@ -1,38 +1,36 @@
-# First-draft diagnostic instrument database for ZAC_A
+# ZAC_A relative-humidity instrument periods
 #
-# Automatically created from:
+# Sources reviewed:
 # - ZAC_A_hour.csv
+# - maintenance sheets/ZAC_A_2025.docx
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
+# The installation date below is the first timestamp in the
+# available Level-2 hourly CSV.
 #
 # First CSV timestamp:
 # 2023-04-22 12:00:00
 #
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
+# This is not a verified physical RH/T installation date.
 #
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# The 2025 maintenance sheet lists visits on:
+# - 2025-04-16
+# - 2025-04-18
+# - 2025-04-22
+#
+# The lower temperature/humidity assembly is marked as replaced.
+# The upper temperature/humidity assembly is marked as not replaced.
+#
+# The source does not associate the lower RH/T replacement with
+# one specific visit date. Therefore, no new exact instrument
+# boundary is introduced.
 
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
-installation_date = "2023-04-22"
-
-# No verified physical RH decommission date.
+station_id = "ZAC_A"
+installation_date = "2023-04-22" # GUESS - CSV data-start boundary only
 decommission_date = "NA"
-
-instrument_type = "NA"
+instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "ZAC_A_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "ZAC_A_hour.csv; maintenance sheets/ZAC_A_2025.docx"
+parsing_confidence = "csv_data_start_only_review_required; lower_RH_replacement_confirmed_but_exact_2025_date_unresolved"
+boundary_reason = "The available Level-2 record begins on 2023-04-22. The lower RH/T assembly was replaced during maintenance on 16, 18 or 22 April 2025, but the exact replacement day is not identified."

@@ -1,0 +1,38 @@
+# First-draft diagnostic instrument database for QAS_Uv3
+#
+# Sources reviewed:
+# - QAS_Uv3_hour.csv
+# - maintenance sheets/QAS_U_2024.pdf
+# - maintenance sheets/QAS_U_2025_2.pdf
+#
+# First Level-2 CSV timestamp:
+# 2020-08-29 13:00:00
+#
+# Maintenance dates:
+# - 2024-08-27
+# - 2024-09-01
+# - 2025-09-05
+#
+# The 2024 maintenance sheet lists 27 August 2024 + 1 September 2024.
+# Temperature/humidity assembly is not recorded as replaced.
+#
+# The 2025 QAS_U-SF maintenance sheet is dated 5 September 2025.
+# Temperature/humidity assembly and HygroClip T/hum assembly are
+# not recorded as replaced.
+#
+# Therefore these maintenance visits do not create additional
+# physical RH/T instrument boundaries.
+
+[[sensor]]
+name = "instrument_1"
+
+# GUESS - CSV data-start boundary only.
+installation_date = "2020-08-29"
+
+# No verified physical RH/T replacement boundary.
+decommission_date = "NA"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "QAS_Uv3_hour.csv; maintenance sheets/QAS_U_2024.pdf; maintenance sheets/QAS_U_2025_2.pdf"
+parsing_confidence = "csv_data_start_only_review_required; maintenance_dates_reviewed_no_RH_replacement"

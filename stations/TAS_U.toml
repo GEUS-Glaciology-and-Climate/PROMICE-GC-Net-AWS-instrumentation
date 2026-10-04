@@ -1,38 +1,15 @@
-# First-draft diagnostic instrument database for TAS_U
+# TAS_U relative-humidity instrument periods
 #
-# Automatically created from:
-# - TAS_U_hour.csv
+# First Level-2 CSV timestamp:
+# 2011-08-10 20:00:00
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
-#
-# First CSV timestamp:
-# 2008-03-11 20:00:00
-#
-# Last CSV timestamp:
-# 2015-08-13 14:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# The station was taken down on 2015-08-13.
 
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
-installation_date = "2008-03-11"
-
-# No verified physical RH decommission date.
-decommission_date = "NA"
-
-instrument_type = "NA"
-serial_number = "NA"
-source_file = "TAS_U_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+installation_date = "2011-08-10"
+decommission_date = "2015-08-13"
+instrument_type = "Rotronic/HygroClip"
+serial_number = "5502517"
+source_file = "TAS_U_hour.csv; maintenance sheets/TAS_U_2014.pdf; maintenance sheets/TAS_U_2015.pdf"
+parsing_confidence = "csv_data_start_reviewed; exact_decommission_date"

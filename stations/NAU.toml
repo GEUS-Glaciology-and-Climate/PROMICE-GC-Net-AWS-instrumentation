@@ -1,19 +1,58 @@
 # First-draft instrument database for NAU
-# Exact maintenance dates verified where readable.
+#
+# Sources reviewed:
+# - maintenance sheets/NAU_2023.jpg
+# - maintenance sheets/NAU_2023_2.jpg
+# - maintenance sheets/NAU_2023_3.jpg
+# - maintenance sheets/NAU_2023_4.jpg
+# - maintenance sheets/NAU_2025.pdf
+# - maintenance sheets/NAU_2026.pdf
+#
+# 2023:
+# Maintenance date = 18 June 2023.
+# Temperature/humidity assembly upper: Shipped = Y, Replaced = Y
+# Temperature/humidity assembly lower: Shipped = Y, Replaced = Y
+#
+# 2025:
+# Maintenance date = 10 May 2025.
+# RH/T replacement activity involving Lufft/Vaisala is documented.
+#
+# 2026:
+# Maintenance record reviewed.
+# No additional confirmed RH/T replacement boundary introduced.
 
 [[sensor]]
 name = "instrument_1"
+
+# Source: NAU_2023.jpg / NAU_2023_2.jpg /
+# NAU_2023_3.jpg / NAU_2023_4.jpg
+# Date: 18-06-2023
+# Upper and lower temperature/humidity assemblies replaced.
 installation_date = "2023-06-18"
+
+# Source: NAU_2025.pdf
+# Date: 10/05/2025
+# RH/T replacement activity documented.
 decommission_date = "2025-05-10"
+
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "maintenance sheets/NAU_2023.jpg; maintenance sheets/NAU_2023_2.jpg; maintenance sheets/NAU_2023_3.jpg; maintenance sheets/NAU_2023_4.jpg"
+source_file = "maintenance sheets/NAU_2023.jpg; maintenance sheets/NAU_2023_2.jpg; maintenance sheets/NAU_2023_3.jpg; maintenance sheets/NAU_2023_4.jpg; maintenance sheets/NAU_2025.pdf"
 parsing_confidence = "exact_maintenance_sheet_date"
+
 
 [[sensor]]
 name = "instrument_2"
+
+# Source: NAU_2025.pdf
+# Date: 10/05/2025
+# RH/T replacement activity documented.
 installation_date = "2025-05-10"
+
+# NAU_2026.pdf reviewed.
+# No later confirmed RH/T replacement boundary established.
 decommission_date = "NA"
+
 instrument_type = "Vaisala"
 serial_number = "NA"
 source_file = "maintenance sheets/NAU_2025.pdf; maintenance sheets/NAU_2026.pdf"

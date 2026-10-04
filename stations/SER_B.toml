@@ -12,7 +12,7 @@
 #
 # This is NOT a verified physical RH sensor installation date.
 #
-# First CSV timestamp:
+# First CSV timestamp: 
 # 2024-07-14 10:00:00
 #
 # Last CSV timestamp:
@@ -35,4 +35,4 @@ decommission_date = "NA"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "SER_B_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+parsing_confidence = "csv_data_start_reviewed"

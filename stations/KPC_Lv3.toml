@@ -1,4 +1,7 @@
 # KPC_Lv3 relative-humidity instrument periods
+#
+# Source:
+# - maintenance sheets/KPC_Lv3_2022.pdf
 
 [[sensor]]
 name = "instrument_1"

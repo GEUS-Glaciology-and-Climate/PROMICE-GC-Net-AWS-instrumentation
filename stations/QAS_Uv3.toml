@@ -3,36 +3,59 @@
 # Automatically created from:
 # - QAS_Uv3_hour.csv
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
-#
 # First CSV timestamp:
 # 2020-08-29 13:00:00
 #
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# Reviewed boundaries supplied:
+# - 2024-08-27
+# - 2024-09-01
+# - 2025-09-05
 
 [[sensor]]
 name = "instrument_1"
 
 # GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
 installation_date = "2020-08-29"
 
-# No verified physical RH decommission date.
-decommission_date = "NA"
+decommission_date = "2024-08-27"
 
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "QAS_Uv3_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+parsing_confidence = "csv_data_start_reviewed"
+
+
+[[sensor]]
+name = "instrument_2"
+
+installation_date = "2024-08-27"
+decommission_date = "2024-09-01"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_Uv3_2024.pdf"
+parsing_confidence = "reviewed_date"
+
+
+[[sensor]]
+name = "instrument_3"
+
+installation_date = "2024-09-01"
+decommission_date = "2025-09-05"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_Uv3_2024.pdf"
+parsing_confidence = "reviewed_date"
+
+
+[[sensor]]
+name = "instrument_4"
+
+installation_date = "2025-09-05"
+decommission_date = "NA"
+
+instrument_type = "NA"
+serial_number = "NA"
+source_file = "maintenance sheets/QAS_U_2025.pdf"
+parsing_confidence = "reviewed_date"

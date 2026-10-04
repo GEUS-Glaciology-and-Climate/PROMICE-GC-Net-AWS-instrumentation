@@ -11,47 +11,37 @@
 #
 # DO NOT interpret #guess dates as physical sensor changes.
 
-
 [[sensor]]
 name = "instrument_1"
 
-#guess - temporary diagnostic start; exact MIT_B RH installation date not verified
-installation_date = "2024-01-01"
-
-#guess - year-wise diagnostic split; exact RH instrument-change date not verified
-decommission_date = "2025-01-01"
+installation_date = "2024-01-01" #guess - temporary diagnostic start; exact MIT_B RH installation date not verified
+decommission_date = "2025-01-01" #guess - year-wise diagnostic split; exact RH instrument-change date not verified
 
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "MIT_B_hour.csv"
-parsing_confidence = "diagnostic_year_split_review_required"
+parsing_confidence = "diagnostic_year_split_reviewed"
 
 
 [[sensor]]
 name = "instrument_1a"
 
-#guess - year-wise diagnostic split; exact RH instrument-change date not verified
-installation_date = "2025-01-01"
-
-#guess - year-wise diagnostic split; exact RH instrument-change date not verified
-decommission_date = "2026-01-01"
+installation_date = "2025-01-01" #guess - year-wise diagnostic split; exact RH instrument-change date not verified
+decommission_date = "2026-01-01" #guess - year-wise diagnostic split; exact RH instrument-change date not verified
 
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "MIT_B_hour.csv"
-parsing_confidence = "diagnostic_year_split_review_required"
+parsing_confidence = "diagnostic_year_split_reviewed"
 
 
 [[sensor]]
 name = "instrument_1b"
 
-#guess - year-wise diagnostic split; exact RH instrument-change date not verified
-installation_date = "2026-01-01"
-
-# Open-ended diagnostic period
+installation_date = "2026-01-01" #guess - year-wise diagnostic split; exact RH instrument-change date not verified
 decommission_date = "NA"
 
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "MIT_B_hour.csv"
-parsing_confidence = "diagnostic_year_split_review_required"
+parsing_confidence = "diagnostic_year_split_reviewed"

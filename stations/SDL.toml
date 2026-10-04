@@ -8,10 +8,15 @@
 # - maintenance sheets/SDL_2023_2.pdf
 # - maintenance sheets/SDL_2024.pdf
 # - maintenance sheets/SDL_2025.pdf
+# - maintenance sheets/SDL_2025_2.jpg
+# - maintenance sheets/SDL_2025_3.jpg
 # - maintenance sheets/SDL_2026.docx
 #
 # 2022:
-# The maintenance sheet does not create an RH boundary.
+# SDL_2021_2.pdf contains a maintenance/installation record dated
+# 14 June 2022, despite the 2021 year in the filename.
+#
+# The separate SDL_2022 maintenance sheet does not create an RH boundary.
 # Temperature/humidity assembly upper: Replaced = N
 # Temperature/humidity assembly lower: Replaced = N
 #
@@ -25,21 +30,21 @@
 #
 # 2025:
 # Maintenance date = 20 May 2025.
-# Both upper and lower Lufft assemblies are marked replaced in the
-# supplied maintenance sheet.
+# Both upper and lower Lufft assemblies are marked replaced.
 #
 # 2026:
 # Maintenance date = 07-05-2026.
 # Lufft upper: Replace = Yes
 # Lufft lower: Replace = Yes
 
-
 [[sensor]]
 name = "instrument_1"
 
-# SDL_2021 documentation does not provide a reliably readable exact
-# RH installation date. The 2022 visit does not replace either RH/T
-# assembly, so the existing period continues until the 2023 replacement.
+# The reviewed 2021 documentation does not provide a reliably readable
+# exact RH installation date.
+#
+# The 14 June date in SDL_2021_2.pdf belongs to 2022, not 2021.
+# Therefore, the existing filename-year fallback is retained.
 installation_date = "2021-07-01"
 
 # Source: SDL_2023.pdf / SDL_2023_2.pdf
@@ -66,7 +71,7 @@ installation_date = "2023-06-15"
 # Source: SDL_2024.pdf
 # Date: 24/5-2024
 # Upper T/RH assembly: Shipped = Y, Replaced = Y
-# Lower T/RH assembly: Shipped = Y, replacement recorded
+# Lower T/RH assembly: Shipped = Y, Replaced = Y
 decommission_date = "2024-05-24"
 
 instrument_type = "Temperature/humidity assembly"
@@ -83,7 +88,7 @@ name = "instrument_3"
 # Upper and lower temperature/humidity assemblies replaced.
 installation_date = "2024-05-24"
 
-# Source: SDL_2025.pdf + supplied 2025 maintenance-sheet image
+# Source: SDL_2025.pdf / SDL_2025_2.jpg / SDL_2025_3.jpg
 # Date: 20 May 2025
 # Upper T/RH assembly: Y (Lufft), Replaced = Y
 # Lower T/RH assembly: Y (Lufft), Replaced = Y
@@ -98,7 +103,7 @@ parsing_confidence = "exact_maintenance_sheet_date"
 [[sensor]]
 name = "instrument_4"
 
-# Source: SDL_2025.pdf + supplied 2025 maintenance-sheet image
+# Source: SDL_2025.pdf / SDL_2025_2.jpg / SDL_2025_3.jpg
 # Date: 20 May 2025
 # Upper T/RH assembly: Lufft, replaced
 # Lower T/RH assembly: Lufft, replaced
@@ -112,7 +117,7 @@ decommission_date = "2026-05-07"
 
 instrument_type = "Lufft"
 serial_number = "NA"
-source_file = "maintenance sheets/SDL_2025.pdf"
+source_file = "maintenance sheets/SDL_2025.pdf; maintenance sheets/SDL_2025_2.jpg; maintenance sheets/SDL_2025_3.jpg"
 parsing_confidence = "exact_maintenance_sheet_date"
 
 
@@ -121,9 +126,8 @@ name = "instrument_5"
 
 # Source: SDL_2026.docx
 # Date: 07-05-2026
-# Station hardware:
-# Lufft upper -> Replace = Yes
-# Lufft lower -> Replace = Yes
+# Lufft upper: Replace = Yes
+# Lufft lower: Replace = Yes
 installation_date = "2026-05-07"
 
 # No later confirmed SDL RH/T replacement record reviewed.

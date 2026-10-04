@@ -1,8 +1,29 @@
 # First-draft instrument database for KAN_U
-# Auto-generated from 'maintenance sheets/'.
-# Exact maintenance-sheet dates are used where verified.
-# Dates flagged 'filename_year_only_review_required' must be
-# replaced once the exact maintenance-sheet date is confirmed.
+#
+# Sources reviewed:
+# - maintenance sheets/KAN_U_2023.pdf
+# - maintenance sheets/KAN_U_2023_2.pdf
+# - maintenance sheets/KAN_U_2024.pdf
+# - maintenance sheets/KAN_U_2025.pdf
+# - maintenance sheets/KAN_U_2025_2.pdf
+# - maintenance sheets/KAN_U_2026.docx
+#
+# 2023:
+# Maintenance date = 2023-06-08.
+#
+# 2024:
+# KAN_U_2024.pdf contains conflicting handwritten dates:
+# page 1 appears to show 2024-05-27;
+# page 2 shows 2024-05-25.
+# Existing 2024-05-27 boundary retained pending resolution.
+#
+# 2025:
+# Maintenance date = 2025-05-16.
+# Upper and lower Lufft temperature/humidity assemblies replaced.
+#
+# 2026:
+# Maintenance date = 2026-05-06.
+# Upper and lower Lufft sensors replaced.
 
 [[sensor]]
 name = "instrument_1"
@@ -11,25 +32,28 @@ decommission_date = "2024-05-27"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "maintenance sheets/KAN_U_2023.pdf"
-parsing_confidence = "exact_maintenance_sheet_date"
+parsing_confidence = "exact_installation_date; 2024_date_source_conflict_review_required"
+
 
 [[sensor]]
 name = "instrument_2"
 installation_date = "2024-05-27"
-decommission_date = "2025-07-01"
+decommission_date = "2025-05-16"
 instrument_type = "Lufft"
 serial_number = "NA"
-source_file = "maintenance sheets/KAN_U_2024.pdf"
-parsing_confidence = "exact_installation_date; decommission_filename_year_only_review_required"
+source_file = "maintenance sheets/KAN_U_2024.pdf; maintenance sheets/KAN_U_2025.pdf"
+parsing_confidence = "2024_date_source_conflict_review_required; exact_2025_decommission_date"
+
 
 [[sensor]]
 name = "instrument_3"
-installation_date = "2025-07-01"
+installation_date = "2025-05-16"
 decommission_date = "2026-05-06"
 instrument_type = "Lufft"
 serial_number = "NA"
 source_file = "maintenance sheets/KAN_U_2025.pdf"
-parsing_confidence = "installation_filename_year_only_review_required; exact_decommission_date"
+parsing_confidence = "exact_maintenance_sheet_date"
+
 
 [[sensor]]
 name = "instrument_4"

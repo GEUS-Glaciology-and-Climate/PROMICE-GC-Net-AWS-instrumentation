@@ -1,38 +1,53 @@
-# First-draft diagnostic instrument database for NUK_Uv3
+# NUK_Uv3 relative-humidity instrument periods
 #
-# Automatically created from:
+# Sources:
 # - NUK_Uv3_hour.csv
-#
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
+# - maintenance sheets/NUK_Uv3_2025.pdf
+# - maintenance sheets/NUK_Uv3_2026.pdf
 #
 # First CSV timestamp:
 # 2020-08-31 15:00:00
 #
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
+# Maintenance dates:
+# - 2025-06-07
+# - 2026-06-24
 #
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# NUK_Uv3_2025.pdf contains conflicting years:
+# - Page 1: 07/06/2025
+# - Page 2: 07/06/2021
+#
+# The filename, page-1 date and maintenance context identify
+# the replacement visit as 2025. The conflicting page-2 date
+# is preserved here and is not used as a separate boundary.
+#
+# On 2025-06-07, the temperature/humidity assembly was
+# marked replaced.
+#
+# On 2026-06-24, the Lufft was replaced.
 
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
-installation_date = "2020-08-31"
-
-# No verified physical RH decommission date.
-decommission_date = "NA"
-
+installation_date = "2020-08-31" # GUESS - CSV data-start boundary only
+decommission_date = "2025-06-07"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "NUK_Uv3_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+parsing_confidence = "csv_data_start_reviewed; exact_decommission_date"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2025-06-07"
+decommission_date = "2026-06-24"
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_Uv3_2025.pdf"
+parsing_confidence = "exact_maintenance_sheet_date; source_contains_conflicting_page_2_year"
+
+[[sensor]]
+name = "instrument_3"
+installation_date = "2026-06-24"
+decommission_date = "NA"
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_Uv3_2026.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

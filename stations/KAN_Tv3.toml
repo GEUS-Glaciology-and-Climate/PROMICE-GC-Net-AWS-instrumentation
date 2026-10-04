@@ -1,8 +1,17 @@
-# First-draft instrument database for KAN_Tv3
-# Auto-generated from 'maintenance sheets/'.
-# Exact maintenance-sheet dates are used where verified.
-# Dates flagged 'filename_year_only_review_required' must be
-# replaced once the exact maintenance-sheet date is confirmed.
+# KAN_Tv3 relative-humidity instrument periods
+#
+# Sources reviewed:
+# - maintenance sheets/KAN_Tv3_2024.pdf
+# - maintenance sheets/KAN_Tv3_2025.pdf
+#
+# KAN_Tv3_2024.pdf does not contain a readable exact visit date.
+#
+# KAN_Tv3_2025.pdf:
+# Maintenance date = 2025-05-15.
+# Temperature/humidity assembly = N
+# HygroClip T/hum assembly = N
+#
+# Therefore the 2025 visit does not create a new RH/T boundary.
 
 [[sensor]]
 name = "instrument_1"
@@ -10,5 +19,5 @@ installation_date = "2024-07-01"
 decommission_date = "NA"
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "maintenance sheets/KAN_Tv3_2024.pdf"
-parsing_confidence = "filename_year_only_review_required"
+source_file = "maintenance sheets/KAN_Tv3_2024.pdf; maintenance sheets/KAN_Tv3_2025.pdf"
+parsing_confidence = "filename_year_reviewed; 2025_maintenance_reviewed_no_RH_replacement"

@@ -1,18 +1,42 @@
 # KPC_U relative-humidity instrument periods
+#
+# Sources reviewed:
+# - maintenance sheets/KPC_U_2016.pdf
+# - maintenance sheets/KPC_U_2019.pdf
+# - maintenance sheets/KPC_U_2022.pdf
 
 [[sensor]]
 name = "instrument_1"
+
+# Source: KPC_U_2016.pdf
+# Maintenance date: 2016-07-26
 installation_date = "2016-07-26"
+
+# Source: KPC_U_2019.pdf
+# Maintenance date: 2019-07-13
 decommission_date = "2019-07-13"
+
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
 source_file = "maintenance sheets/KPC_U_2016.pdf; maintenance sheets/KPC_U_2019.pdf"
 parsing_confidence = "exact_maintenance_sheet_date"
 
+
 [[sensor]]
 name = "instrument_2"
+
+# Source: KPC_U_2019.pdf
+# Maintenance date: 2019-07-13
 installation_date = "2019-07-13"
+
+# Source: KPC_U_2022.pdf
+# Maintenance date: 2022-05-28
+#
+# Important:
+# KPC_U_2022.pdf explicitly states that the HygroClip
+# was "Not changed."
 decommission_date = "2022-05-28"
+
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
 source_file = "maintenance sheets/KPC_U_2019.pdf; maintenance sheets/KPC_U_2022.pdf"

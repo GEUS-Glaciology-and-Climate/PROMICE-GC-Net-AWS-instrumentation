@@ -1,38 +1,69 @@
-# First-draft diagnostic instrument database for SWC_O
+# First-draft instrument database for SWC_O
 #
-# Automatically created from:
+# Sources:
 # - SWC_O_hour.csv
+# - maintenance sheets/SWC_O_2024.pdf
+# - maintenance sheets/SWC_2025.pdf
+# - maintenance sheets/SWC_2025_2.pdf
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
+# The first period begins at the first timestamp in the
+# available Level-2 hourly CSV.
 #
 # First CSV timestamp:
 # 2022-08-02 17:00:00
 #
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# This is not a verified physical RH/T installation date.
 
 [[sensor]]
 name = "instrument_1"
+station_id = "SWC_O"
 
 # GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
 installation_date = "2022-08-02"
 
-# No verified physical RH decommission date.
-decommission_date = "NA"
+# The reviewed 2024 maintenance record establishes the next
+# documented SWC_O RH/T period.
+decommission_date = "2024-08-20"
 
 instrument_type = "NA"
 serial_number = "NA"
-source_file = "SWC_O_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "SWC_O_hour.csv; maintenance sheets/SWC_O_2024.pdf"
+parsing_confidence = "csv_data_start_reviewed; 2024_boundary_from_maintenance_record"
+
+
+[[sensor]]
+name = "instrument_2"
+station_id = "SWC_O"
+
+# Source: SWC_O_2024.pdf
+# Maintenance date: 2024-08-20
+# Temperature/humidity assembly present.
+installation_date = "2024-08-20"
+
+# Source: SWC_2025.pdf / SWC_2025_2.pdf
+# Fieldwork date: 2025-08-20
+# The report explicitly states that the Lufft was replaced.
+decommission_date = "2025-08-20"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/SWC_O_2024.pdf; maintenance sheets/SWC_2025.pdf; maintenance sheets/SWC_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"
+
+
+[[sensor]]
+name = "instrument_3"
+station_id = "SWC_O"
+
+# The 2025 field report states that the Lufft was replaced
+# after failing during spring 2025.
+installation_date = "2025-08-20"
+
+# No later SWC_O RH/T replacement is established
+# by the supplied records.
+decommission_date = "NA"
+
+instrument_type = "Lufft"
+serial_number = "NA"
+source_file = "maintenance sheets/SWC_2025.pdf; maintenance sheets/SWC_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

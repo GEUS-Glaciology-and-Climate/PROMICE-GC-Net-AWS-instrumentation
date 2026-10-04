@@ -9,16 +9,16 @@ decommission_date = "2024-01-01" #guess - diagnostic split
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_Lv3_hour.csv"
-parsing_confidence = "diagnostic_year_split_review_required"
+parsing_confidence = "diagnostic_year_split_reviewed"
 
 [[sensor]]
 name = "instrument_1a"
 installation_date = "2024-01-01" #guess - diagnostic split
-decommission_date = "2025-01-01" #guess - diagnostic split
+decommission_date = "2025-01-01" #guess - diagnostic splits
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_Lv3_hour.csv"
-parsing_confidence = "diagnostic_year_split_review_required"
+parsing_confidence = "diagnostic_year_split_reviewed"
 
 [[sensor]]
 name = "instrument_1b"
@@ -27,7 +27,7 @@ decommission_date = "2026-01-01" #guess - diagnostic split
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_Lv3_hour.csv"
-parsing_confidence = "diagnostic_year_split_review_required"
+parsing_confidence = "diagnostic_year_split_reviewed"
 
 [[sensor]]
 name = "instrument_1c"
@@ -36,4 +36,4 @@ decommission_date = "NA"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_Lv3_hour.csv"
-parsing_confidence = "diagnostic_year_split_review_required"
+parsing_confidence = "diagnostic_year_split_reviewed"

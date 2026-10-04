@@ -1,38 +1,34 @@
-# First-draft diagnostic instrument database for NUK_K
+# NUK_K relative-humidity instrument periods
 #
-# Automatically created from:
+# Sources:
 # - NUK_K_hour.csv
-#
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
-#
-# First CSV timestamp:
-# 2014-07-28 14:00:00
-#
-# Last CSV timestamp:
-# 2026-08-20 15:00:00
-#
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# - maintenance sheets/NUK_K_2023.pdf
+# - maintenance sheets/NUK_K_2025.pdf
+# - maintenance sheets/NUK_K_2025_2.pdf
 
 [[sensor]]
 name = "instrument_1"
 
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
+# GUESS - original Level-2 CSV data-start boundary.
 installation_date = "2014-07-28"
 
-# No verified physical RH decommission date.
-decommission_date = "NA"
+# Maintenance sheet date: 21/09/2023
+# Temperature/humidity assembly: Shipped = Y, Replaced = Y
+decommission_date = "2023-09-21"
 
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "NUK_K_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+parsing_confidence = "csv_data_start_reviewed"
+
+
+[[sensor]]
+name = "instrument_2"
+
+installation_date = "2023-09-21"
+decommission_date = "NA"
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/NUK_K_2023.pdf; maintenance sheets/NUK_K_2025.pdf; maintenance sheets/NUK_K_2025_2.pdf"
+parsing_confidence = "exact_maintenance_sheet_date"

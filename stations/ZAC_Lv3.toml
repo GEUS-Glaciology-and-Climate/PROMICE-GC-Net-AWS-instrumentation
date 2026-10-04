@@ -1,38 +1,33 @@
-# First-draft diagnostic instrument database for ZAC_Lv3
+# ZAC_Lv3 relative-humidity instrument periods
 #
-# Automatically created from:
+# Sources reviewed:
 # - ZAC_Lv3_hour.csv
+# - maintenance sheets/ZAC_Lv3_2025.docx
 #
-# IMPORTANT:
-# No verified RH maintenance-sheet dates were available when
-# this first-draft TOML was generated.
-#
-# The installation date below is derived from the first timestamp
-# present in the Level-2 hourly CSV.
-#
-# This is NOT a verified physical RH sensor installation date.
+# The installation date below is the first timestamp in the
+# available Level-2 hourly CSV.
 #
 # First CSV timestamp:
 # 2022-04-20 15:00:00
 #
-# Last CSV timestamp:
-# 2026-04-23 17:00:00
+# This is not a verified physical RH/T installation date.
 #
-# The period remains open-ended because the end of the available
-# CSV record does not establish physical sensor decommissioning.
-
+# The 2025 maintenance sheet lists visits on:
+# - 2025-04-16
+# - 2025-04-29
+#
+# The temperature/humidity assembly and HygroClip T/hum assembly
+# are both marked as not replaced.
+#
+# Therefore, the 2025 visits do not introduce a new RH/T boundary.
 
 [[sensor]]
 name = "instrument_1"
-
-# GUESS - CSV data-start boundary only.
-# Exact physical RH installation date not verified.
-installation_date = "2022-04-20"
-
-# No verified physical RH decommission date.
+station_id = "ZAC_Lv3"
+installation_date = "2022-04-20" # GUESS - CSV data-start boundary only
 decommission_date = "NA"
-
-instrument_type = "NA"
+instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
-source_file = "ZAC_Lv3_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+source_file = "ZAC_Lv3_hour.csv; maintenance sheets/ZAC_Lv3_2025.docx"
+parsing_confidence = "csv_data_start_only_review_required; no_verified_2025_RH_replacement"
+boundary_reason = "The available Level-2 record begins on 2022-04-20. Maintenance occurred on 16 and 29 April 2025, but the RH/T and HygroClip assemblies were not replaced."

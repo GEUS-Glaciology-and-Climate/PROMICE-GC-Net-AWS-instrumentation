@@ -27,7 +27,7 @@ name = "instrument_1"
 
 # GUESS - CSV data-start boundary only.
 # Exact physical RH installation date not verified.
-installation_date = "2010-08-09"
+installation_date = "2010-08-10"
 
 # No verified physical RH decommission date.
 decommission_date = "NA"

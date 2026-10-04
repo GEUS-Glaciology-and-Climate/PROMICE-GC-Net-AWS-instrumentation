@@ -8,7 +8,7 @@ decommission_date = "2023-07-01" #guess - year-wise diagnostic split; exact inst
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2022.pdf"
-parsing_confidence = "filename_year_only_review_required"
+parsing_confidence = "filename_year_reviewed"
 
 
 [[sensor]]
@@ -18,7 +18,7 @@ decommission_date = "2024-07-01" #guess - year-wise diagnostic split; exact inst
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2022.pdf"
-parsing_confidence = "filename_year_only_review_required"
+parsing_confidence = "filename_year_reviewed"
 
 
 [[sensor]]
@@ -28,7 +28,7 @@ decommission_date = "2025-07-01" #guess - year-wise diagnostic split; exact inst
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2022.pdf"
-parsing_confidence = "filename_year_only_review_required"
+parsing_confidence = "filename_year_reviewed"
 
 
 [[sensor]]
@@ -38,7 +38,7 @@ decommission_date = "2026-07-01"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2022.pdf"
-parsing_confidence = "filename_year_only_review_required"
+parsing_confidence = "filename_year_reviewed"
 
 
 [[sensor]]
@@ -48,4 +48,4 @@ decommission_date = "NA"
 instrument_type = "Lufft"
 serial_number = "arrival"
 source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2026.pdf"
-parsing_confidence = "filename_year_only_review_required"
+parsing_confidence = "filename_year_reviewed"

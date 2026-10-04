@@ -1,0 +1,36 @@
+# ZAK_T relative-humidity instrument periods
+#
+# Sources reviewed:
+# - ZAK_T_2012.pdf
+# - ZAK_T_2013.pdf
+# - ZAK_T_2015.pdf
+#
+# ZAK_T_2012 documents a HygroClip replacement, but the exact
+# maintenance visit date is not legible in the reviewed sheet.
+#
+# ZAK_T_2013 records maintenance on 2013-04-30 but does not
+# clearly document a confirmed RH/T replacement.
+#
+# ZAK_T_2015 records a maintenance visit on 2015-04-26.
+# The RH/T serial transition is not sufficiently clear to treat
+# the visit automatically as a confirmed physical replacement.
+
+[[sensor]]
+name = "instrument_1"
+installation_date = "2012-07-01" # filename-year fallback; exact 2012 visit date unresolved
+decommission_date = "2015-04-26"
+instrument_type = "Rotronic/HygroClip"
+serial_number = "60687677"
+source_file = "ZAK_T_2012.pdf; ZAK_T_2013.pdf; ZAK_T_2015.pdf"
+date_confidence = "mixed - 2012 filename-year fallback; 2015 exact maintenance visit date"
+boundary_reason = "HygroClip replacement documented in ZAK_T_2012 but exact date is unresolved; no confirmed RH/T replacement documented on 2013-04-30; 2015 boundary is based on the maintenance visit dated 2015-04-26 and requires RH/T replacement verification;"
+
+[[sensor]]
+name = "instrument_2"
+installation_date = "2015-04-26"
+decommission_date = "NA"
+instrument_type = "Rotronic/HygroClip"
+serial_number = "NA"
+source_file = "ZAK_T_2015.pdf"
+date_confidence = "medium - exact maintenance visit date; RH/T replacement evidence requires review"
+boundary_reason = "Analytical instrument period begins at the ZAK_T maintenance visit dated 2015-04-26; confirm the RH/T hardware transition before marking this as a verified physical replacement;"
