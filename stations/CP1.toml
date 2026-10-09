@@ -18,11 +18,15 @@
 # first maintenance visit, but is not confirmed as the original sensor
 # installation date.
 #
-# 2023-06-19 is not used as a boundary because RH replacement is not
-# clearly confirmed on the sheet.
+# Additional analytical boundaries were introduced where required to
+# separate overlapping RH/T cloud structures. These inferred boundaries
+# are not confirmed physical instrument replacement dates.
 #
-# The 2025 visit is not used as a boundary because the exact visit date
-# could not be reliably read; only a calibration date was visible.
+# 2023-06-19 is not used as a confirmed RH replacement boundary because
+# RH replacement is not clearly confirmed on the maintenance sheet.
+#
+# The 2025 visit is not used as a confirmed RH replacement boundary
+# because the exact visit date could not be reliably established.
 
 [[sensor]]
 name = "instrument_1"
@@ -31,43 +35,43 @@ decommission_date = "2022-06-15"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CP1_2021.pdf; CP1_2022.pdf"
-parsing_confidence = "installation date is start of Level 2 record, not confirmed sensor installation"
+parsing_confidence = "installation_data_start_not_physical_installation; decommission_exact_maintenance_sheet_date"
 
 [[sensor]]
 name = "instrument_2"
 installation_date = "2022-06-15"
-decommission_date = "2023-05-25"  #guess
+decommission_date = "2023-05-25" # inferred analytical boundary; not confirmed physical instrument change
 instrument_type = "Lufft"
 serial_number = "NA"
 source_file = "CP1_2022.pdf; CP1_2023.jpg; CP1_2023_2.jpg; CP1_2024.pdf"
-parsing_confidence = "confirmed from maintenance sheets"
+parsing_confidence = "installation_exact_maintenance_sheet_date; decommission_inferred_review_required"
 
 [[sensor]]
 name = "instrument_2a"
-installation_date = "2023-06-15" #guess
+installation_date = "2023-06-15" # inferred analytical boundary; not confirmed physical instrument change
 decommission_date = "2024-05-25"
 instrument_type = "Lufft"
 serial_number = "NA"
 source_file = "CP1_2022.pdf; CP1_2023.jpg; CP1_2023_2.jpg; CP1_2024.pdf"
-parsing_confidence = "confirmed from maintenance sheets"
+parsing_confidence = "installation_inferred_review_required; decommission_exact_maintenance_sheet_date"
 
 [[sensor]]
 name = "instrument_3"
 installation_date = "2024-05-25"
-decommission_date = "2025-05-08"  #guess
+decommission_date = "2025-05-08" # inferred analytical boundary; not confirmed physical instrument change
 instrument_type = "Lufft"
 serial_number = "NA"
 source_file = "CP1_2024.pdf; CP1_2025.pdf; CP1_2026.docx"
-parsing_confidence = "confirmed start and end dates; 2025 visit date not resolved"
+parsing_confidence = "installation_exact_maintenance_sheet_date; decommission_inferred_review_required"
 
 [[sensor]]
 name = "instrument_3a"
-installation_date = "2025-05-25"  #guess
+installation_date = "2025-05-25" # inferred analytical boundary; not confirmed physical instrument change
 decommission_date = "2026-05-08"
 instrument_type = "Lufft"
 serial_number = "NA"
 source_file = "CP1_2024.pdf; CP1_2025.pdf; CP1_2026.docx"
-parsing_confidence = "confirmed start and end dates; 2025 visit date not resolved"
+parsing_confidence = "installation_inferred_review_required; decommission_exact_maintenance_sheet_date"
 
 [[sensor]]
 name = "instrument_4"
@@ -76,4 +80,4 @@ decommission_date = "NA"
 instrument_type = "Lufft"
 serial_number = "NA"
 source_file = "CP1_2026.docx"
-parsing_confidence = "confirmed installation date; currently installed"
+parsing_confidence = "installation_exact_maintenance_sheet_date; currently_installed"
