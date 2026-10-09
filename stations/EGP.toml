@@ -19,7 +19,7 @@
 [[sensor]]
 name = "instrument_1"
 installation_date = "2016-05-01" # first date in file
-decommission_date = "2021-08-12" # from picture
+decommission_date = "2021-08-12" 
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
 source_file = "EGP_2023.jpg; EGP_2023_2.jpg; EGP_2024.jpg"
@@ -28,8 +28,8 @@ boundary_reason = "Existing period retained from reviewed project record"
 
 [[sensor]]
 name = "instrument_1b"
-installation_date = "2021-08-12" # from picture
-decommission_date = "2022-06-17" # from picture
+installation_date = "2021-08-12" 
+decommission_date = "2022-06-17" 
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
 source_file = "EGP_2023.jpg; EGP_2023_2.jpg; EGP_2024.jpg"
@@ -38,7 +38,7 @@ boundary_reason = "Existing period retained from reviewed project record"
 
 [[sensor]]
 name = "instrument_1c"
-installation_date = "2022-06-17"
+installation_date = "2022-06-17"   
 decommission_date = "2023-06-21"
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"

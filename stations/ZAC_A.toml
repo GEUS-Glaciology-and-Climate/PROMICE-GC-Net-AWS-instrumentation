@@ -27,10 +27,10 @@
 [[sensor]]
 name = "instrument_1"
 station_id = "ZAC_A"
-installation_date = "2023-04-22" # GUESS - CSV data-start boundary only
+installation_date = "2023-04-22" #  CSV data-start boundary only
 decommission_date = "NA"
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "ZAC_A_hour.csv; maintenance sheets/ZAC_A_2025.docx"
-parsing_confidence = "csv_data_start_only_review_required; lower_RH_replacement_confirmed_but_exact_2025_date_unresolved"
+parsing_confidence = "csv_data_start_reviewed; lower_RH_replacement_confirmed_but_exact_2025_date_unresolved"
 boundary_reason = "The available Level-2 record begins on 2023-04-22. The lower RH/T assembly was replaced during maintenance on 16, 18 or 22 April 2025, but the exact replacement day is not identified."

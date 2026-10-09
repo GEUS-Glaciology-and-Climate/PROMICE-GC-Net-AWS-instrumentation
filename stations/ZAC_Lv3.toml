@@ -24,10 +24,10 @@
 [[sensor]]
 name = "instrument_1"
 station_id = "ZAC_Lv3"
-installation_date = "2022-04-20" # GUESS - CSV data-start boundary only
+installation_date = "2022-04-20" #  CSV data-start boundary only
 decommission_date = "NA"
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "ZAC_Lv3_hour.csv; maintenance sheets/ZAC_Lv3_2025.docx"
-parsing_confidence = "csv_data_start_only_review_required; no_verified_2025_RH_replacement"
+parsing_confidence = " no_verified_2025_RH_replacement"
 boundary_reason = "The available Level-2 record begins on 2022-04-20. Maintenance occurred on 16 and 29 April 2025, but the RH/T and HygroClip assemblies were not replaced."

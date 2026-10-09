@@ -28,13 +28,28 @@ name = "instrument_2"
 # Lower T/RH assembly: Shipped = Y, Replaced = Y
 installation_date = "2023-06-20"
 
-decommission_date = "2024-06-11"   #guess because of overlapping
-
+decommission_date = "2023-12-20" # inferred from overlapping RH/T cloud structures; review required
 
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "maintenance sheets/TUN_2023.jpg; maintenance sheets/TUN_2023_2.jpg; maintenance sheets/TUN_2023_3.jpg; maintenance sheets/TUN_2023_4.jpg"
-parsing_confidence = "exact_maintenance_sheet_date"
+parsing_confidence = "installation_exact_maintenance_sheet_date; decommission_review_required"
+
+[[sensor]]
+name = "instrument_2"
+
+# Source: TUN_2023.jpg / TUN_2023_2.jpg
+# Date: 20-06-2023
+# Upper T/RH assembly: Shipped = Y, Replaced = Y
+# Lower T/RH assembly: Shipped = Y, Replaced = Y
+installation_date = "2023-12-20"  # inferred from overlapping RH/T cloud structures; review required
+
+decommission_date = "2024-06-20" # inferred from overlapping RH/T cloud structures; review required
+
+instrument_type = "Temperature/humidity assembly"
+serial_number = "NA"
+source_file = "maintenance sheets/TUN_2023.jpg; maintenance sheets/TUN_2023_2.jpg; maintenance sheets/TUN_2023_3.jpg; maintenance sheets/TUN_2023_4.jpg"
+parsing_confidence = "installation_review_required; decommission_review_required"
 
 
 [[sensor]]
@@ -45,12 +60,12 @@ name = "instrument_3"
 # Upper T/RH assembly: Shipped = Y, Replaced = Y
 # Lower T/RH assembly: Shipped = Y, Replaced = Y
 installation_date = "2024-06-20"
-decommission_date = "2026-06-11"  
+decommission_date = "2026-06-11"
+
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "maintenance sheets/TUN_2023.jpg; maintenance sheets/TUN_2023_2.jpg; maintenance sheets/TUN_2023_3.jpg; maintenance sheets/TUN_2023_4.jpg"
 parsing_confidence = "exact_maintenance_sheet_date"
-
 
 
 [[sensor]]

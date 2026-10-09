@@ -1,45 +1,38 @@
-
-
-
 [[sensor]]
 name = "instrument_1"
 installation_date = "2022-07-01"
-decommission_date = "2023-07-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+decommission_date = "2023-07-01" # year-wise diagnostic split; review required
 instrument_type = "NA"
 serial_number = "NA"
-source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2022.pdf"
-parsing_confidence = "filename_year_reviewed"
-
+source_file = "NEM_2022.pdf"
+parsing_confidence = "installation_reviewed; decommission_review_required"
 
 [[sensor]]
 name = "instrument_1a"
-installation_date = "2023-07-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
-decommission_date = "2024-07-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+installation_date = "2023-07-01" # year-wise diagnostic split; review required
+decommission_date = "2024-07-01" # year-wise diagnostic split; review required
 instrument_type = "NA"
 serial_number = "NA"
-source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2022.pdf"
-parsing_confidence = "filename_year_reviewed"
-
+source_file = "NEM_2022.pdf"
+parsing_confidence = "installation_review_required; decommission_review_required"
 
 [[sensor]]
 name = "instrument_1b"
-installation_date = "2024-07-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
-decommission_date = "2025-07-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+installation_date = "2024-07-01" # year-wise diagnostic split; review required
+decommission_date = "2025-07-01" # year-wise diagnostic split; review required
 instrument_type = "NA"
 serial_number = "NA"
-source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2022.pdf"
-parsing_confidence = "filename_year_reviewed"
-
+source_file = "NEM_2022.pdf"
+parsing_confidence = "installation_review_required; decommission_review_required"
 
 [[sensor]]
 name = "instrument_1c"
-installation_date = "2025-07-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+installation_date = "2025-07-01" # year-wise diagnostic split; review required
 decommission_date = "2026-07-01"
 instrument_type = "NA"
 serial_number = "NA"
-source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2022.pdf"
-parsing_confidence = "filename_year_reviewed"
-
+source_file = "NEM_2022.pdf"
+parsing_confidence = "installation_review_required; decommission_reviewed"
 
 [[sensor]]
 name = "instrument_2"
@@ -47,5 +40,5 @@ installation_date = "2026-07-01"
 decommission_date = "NA"
 instrument_type = "Lufft"
 serial_number = "arrival"
-source_file = "C:/Users/BNA125/OneDrive - Maersk Group/Attachments/Skrivebord/My_docs/my/PROMICE-GC-Net-AWS-instrumentation-main/PROMICE-GC-Net-AWS-instrumentation-main/maintenance sheets/NEM_2026.pdf"
-parsing_confidence = "filename_year_reviewed"
+source_file = "NEM_2026.pdf"
+parsing_confidence = "reviewed"

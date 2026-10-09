@@ -1,50 +1,50 @@
 # KAN_B diagnostic RH instrument periods
 #
 # IMPORTANT:
-# All dates marked #guess are analytical plotting boundaries only.
-# They are NOT verified physical RH instrument-change dates.
+# All dates below are analytical year-wise diagnostic boundaries only.
+# They are not verified physical RH instrument-change dates.
 
 [[sensor]]
 name = "instrument_1"
-installation_date = "2022-01-01" #guess - temporary diagnostic start; exact RH installation date not verified
-decommission_date = "2023-01-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+installation_date = "2022-01-01" # diagnostic start; exact RH installation date not verified
+decommission_date = "2023-01-01" # year-wise diagnostic boundary; physical instrument change not verified
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_B_hour.csv"
-parsing_confidence = "diagnostic_year_split_reviewed"
+parsing_confidence = "diagnostic_boundary_not_physically_verified"
 
 [[sensor]]
 name = "instrument_1a"
-installation_date = "2023-01-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
-decommission_date = "2024-01-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+installation_date = "2023-01-01" # year-wise diagnostic boundary; physical instrument change not verified
+decommission_date = "2024-01-01" # year-wise diagnostic boundary; physical instrument change not verified
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_B_hour.csv"
-parsing_confidence = "diagnostic_year_split_reviewed"
+parsing_confidence = "diagnostic_boundary_not_physically_verified"
 
 [[sensor]]
 name = "instrument_1b"
-installation_date = "2024-01-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
-decommission_date = "2025-01-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+installation_date = "2024-01-01" # year-wise diagnostic boundary; physical instrument change not verified
+decommission_date = "2025-01-01" # year-wise diagnostic boundary; physical instrument change not verified
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_B_hour.csv"
-parsing_confidence = "diagnostic_year_split_reviewed"
+parsing_confidence = "diagnostic_boundary_not_physically_verified"
 
 [[sensor]]
 name = "instrument_1c"
-installation_date = "2025-01-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
-decommission_date = "2026-01-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+installation_date = "2025-01-01" # year-wise diagnostic boundary; physical instrument change not verified
+decommission_date = "2026-01-01" # year-wise diagnostic boundary; physical instrument change not verified
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_B_hour.csv"
-parsing_confidence = "diagnostic_year_split_reviewed"
+parsing_confidence = "diagnostic_boundary_not_physically_verified"
 
 [[sensor]]
 name = "instrument_1d"
-installation_date = "2026-01-01" #guess - year-wise diagnostic split; exact instrument-change date not verified
+installation_date = "2026-01-01" # year-wise diagnostic boundary; physical instrument change not verified
 decommission_date = "NA"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "KAN_B_hour.csv"
-parsing_confidence = "diagnostic_year_split_reviewed"
+parsing_confidence = "diagnostic_boundary_not_physically_verified"

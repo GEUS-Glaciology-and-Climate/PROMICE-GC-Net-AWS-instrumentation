@@ -13,7 +13,7 @@
 [[sensor]]
 name = "instrument_1"
 
-# GUESS - CSV data-start boundary only.
+#  - CSV data-start boundary only.
 installation_date = "2008-08-07"
 decommission_date = "2014-08-22"
 

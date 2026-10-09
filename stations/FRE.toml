@@ -11,22 +11,25 @@
 # The maintenance checklist explicitly records the HygroClip
 # T/hum assembly as shipped = Y and replaced = Y.
 #
-# Therefore the 2025 visit provides confirmed evidence of an
-# RH instrument replacement. The source does not identify
-# whether the replacement occurred specifically on 19 April
-# or 28 April, so 2025-04-19 is retained as the first documented
-
+# Therefore, the maintenance record confirms an RH instrument
+# replacement during this visit.
+#
+# The exact day of replacement within the documented visit range
+# is unresolved. The first documented visit date is retained as
+# the analytical replacement boundary.
+#
+# The initial 2025-01-01 boundary is an analytical fallback and
+# is not a confirmed physical installation date.
 
 [[sensor]]
 name = "instrument_1"
-installation_date = "2025-01-01" #guess
+installation_date = "2025-01-01" # analytical fallback; physical installation date not confirmed
 decommission_date = "2025-04-19"
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
 source_file = "FRE_2025.docx"
-parsing_confidence = "visit_range_boundary_reviewed"
-boundary_reason = "FRE_2025 documents the maintenance visit as 19 April + 28 April 2025 and explicitly marks the HygroClip T/hum assembly as replaced"
-
+parsing_confidence = "installation_inferred_review_required; decommission_visit_range_boundary_reviewed"
+boundary_reason = "Initial installation boundary is not confirmed; FRE_2025 documents HygroClip replacement during the 19 April + 28 April 2025 maintenance visit"
 
 [[sensor]]
 name = "instrument_2"
@@ -35,5 +38,5 @@ decommission_date = "NA"
 instrument_type = "Rotronic/HygroClip"
 serial_number = "NA"
 source_file = "FRE_2025.docx"
-parsing_confidence = "visit_range_boundary_reviewed"
-boundary_reason = "New HygroClip T/hum assembly follows the replacement documented during the 19 April + 28 April 2025 Freya maintenance visit"
+parsing_confidence = "installation_visit_range_boundary_reviewed"
+boundary_reason = "New HygroClip follows the replacement documented during the 19 April + 28 April 2025 maintenance visit; exact replacement day within the visit range is unresolved"

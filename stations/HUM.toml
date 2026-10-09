@@ -7,41 +7,41 @@
 #
 # Existing dates are preserved unchanged.
 #
-# New reviewed date:
-# - 2026-06-06 from HUM_2026.pdf
+# The 2022 and 2026 boundaries are supported by the reviewed
+# maintenance information.
+#
+# The intermediate boundaries were retained as analytical diagnostic
+# boundaries. These are not confirmed physical instrument-change dates.
 
 [[sensor]]
 name = "instrument_1"
 installation_date = "2022-06-19"
-decommission_date = "2023-06-19" #guess
+decommission_date = "2023-06-19" # diagnostic boundary; not confirmed physical instrument change
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "HUM_2022.pdf; HUM_2026.pdf; PROMICE_maintenance.xlsx"
-parsing_confidence = "2022_boundary_high_confidence_later_boundary_unresolved"
-boundary_reason = "Documented RH/T period begins at the 2022-06-19 HUM maintenance boundary; later diagnostic boundary retained"
-
+parsing_confidence = "installation_maintenance_supported; decommission_diagnostic_boundary_not_physically_verified"
+boundary_reason = "RH/T period begins at the documented 2022 maintenance boundary; the later boundary is retained for diagnostic separation and is not confirmed as a physical instrument change"
 
 [[sensor]]
 name = "instrument_1a"
-installation_date = "2023-06-19" #guess
-decommission_date = "2024-06-19" #guess
+installation_date = "2023-06-19" # diagnostic boundary; not confirmed physical instrument change
+decommission_date = "2024-06-19" # diagnostic boundary; not confirmed physical instrument change
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "HUM_2022.pdf; HUM_2026.pdf; PROMICE_maintenance.xlsx"
-parsing_confidence = "diagnostic_boundary_reviewed"
-boundary_reason = "Existing diagnostic boundary retained unchanged"
-
+parsing_confidence = "diagnostic_boundary_not_physically_verified"
+boundary_reason = "Analytical diagnostic period retained from the existing instrumentation record; boundaries are not confirmed physical instrument changes"
 
 [[sensor]]
 name = "instrument_1b"
-installation_date = "2024-06-19" #guess
+installation_date = "2024-06-19" # diagnostic boundary; not confirmed physical instrument change
 decommission_date = "2026-06-06"
 instrument_type = "Temperature/humidity assembly"
 serial_number = "NA"
 source_file = "HUM_2022.pdf; HUM_2026.pdf; PROMICE_maintenance.xlsx"
-parsing_confidence = "diagnostic_start_retained; exact_2026_decommission_date"
-boundary_reason = "Existing 2024 diagnostic boundary retained; next documented maintenance boundary is 2026-06-06"
-
+parsing_confidence = "installation_diagnostic_boundary_not_physically_verified; decommission_exact_maintenance_sheet_date"
+boundary_reason = "The 2024 start is a retained diagnostic boundary; the subsequent 2026 maintenance boundary is documented"
 
 [[sensor]]
 name = "instrument_2"

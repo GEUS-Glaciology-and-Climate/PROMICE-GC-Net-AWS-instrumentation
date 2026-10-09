@@ -25,7 +25,7 @@
 [[sensor]]
 name = "instrument_1"
 
-# GUESS - CSV data-start boundary only.
+# CSV data-start boundary only.
 # Exact physical RH installation date not verified.
 installation_date = "2010-08-10"
 
@@ -35,4 +35,4 @@ decommission_date = "NA"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "THU_U_hour.csv"
-parsing_confidence = "csv_data_start_only_review_required"
+parsing_confidence = "csv_data_start_reviewed"

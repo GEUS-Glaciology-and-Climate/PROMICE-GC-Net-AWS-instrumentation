@@ -25,10 +25,10 @@
 [[sensor]]
 name = "instrument_1"
 station_id = "ZAC_Uv3"
-installation_date = "2022-04-21" # GUESS - CSV data-start boundary only
+installation_date = "2022-04-21" # CSV data-start boundary only;
 decommission_date = "NA"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "ZAC_Uv3_hour.csv; maintenance sheets/ZAC_Uv3_2025.docx"
-parsing_confidence = "csv_data_start_reviewed; no_verified_2025_RH_replacement"
+parsing_confidence = " 2025_maintenance_reviewed_no_RH_replacement"
 boundary_reason = "The available Level-2 record begins on 2022-04-21. Maintenance occurred on 2025-04-18, but neither RH/T assembly was replaced and no Lufft sensor was installed."

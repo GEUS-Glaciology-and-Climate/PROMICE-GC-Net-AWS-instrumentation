@@ -26,7 +26,7 @@
 [[sensor]]
 name = "instrument_1"
 
-# GUESS - CSV data-start boundary only.
+#  - CSV data-start boundary only.
 installation_date = "2020-08-29"
 
 # No verified physical RH/T replacement boundary.

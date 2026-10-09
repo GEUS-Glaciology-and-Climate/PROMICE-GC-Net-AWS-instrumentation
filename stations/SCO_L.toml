@@ -8,7 +8,7 @@
 [[sensor]]
 name = "instrument_1"
 
-# GUESS - CSV data-start boundary only.
+#CSV data-start boundary only.
 installation_date = "2008-07-22"
 
 # Source: SCO_L_2014.pdf

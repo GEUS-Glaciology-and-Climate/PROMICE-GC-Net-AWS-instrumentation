@@ -1,85 +1,92 @@
 # CEN1 relative-humidity instrument periods
 #
 # The CEN1 Level-2 CSV begins on 2017-07-24.
-# The dates below are year-wise diagnostic boundaries based on overlapping data.
+#
+# The additional year-wise diagnostic boundaries below were introduced
+# based on overlapping structures observed in the RH-versus-temperature
+# cloud plots.
+#
+# These dates are analytical boundaries inferred from the data.
+# They are not confirmed physical instrument-change dates from
+# maintenance records.
 
 [[sensor]]
 name = "instrument_1"
 installation_date = "2017-07-24" # observed start of the CEN1 Level-2 CSV
-decommission_date = "2018-07-24" #guess because of overlapping
+decommission_date = "2018-07-24" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"
 
 [[sensor]]
 name = "instrument_1a"
-installation_date = "2018-07-24" #guess because of overlapping
-decommission_date = "2019-07-24" #guess because of overlapping
+installation_date = "2018-07-24" # inferred from overlapping RH/T cloud structures
+decommission_date = "2019-07-24" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"
 
 [[sensor]]
 name = "instrument_1b"
-installation_date = "2019-07-24" #guess because of overlapping
-decommission_date = "2020-07-24" #guess because of overlapping
+installation_date = "2019-07-24" # inferred from overlapping RH/T cloud structures
+decommission_date = "2020-07-24" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"
 
 [[sensor]]
 name = "instrument_1c"
-installation_date = "2020-07-24" #guess because of overlapping
-decommission_date = "2021-07-24" #guess because of overlapping
+installation_date = "2020-07-24" # inferred from overlapping RH/T cloud structures
+decommission_date = "2021-07-24" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"
 
 [[sensor]]
 name = "instrument_1d"
-installation_date = "2021-07-24" #guess because of overlapping
-decommission_date = "2022-07-24" #guess because of overlapping
+installation_date = "2021-07-24" # inferred from overlapping RH/T cloud structures
+decommission_date = "2022-07-24" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"
 
 [[sensor]]
 name = "instrument_1e"
-installation_date = "2022-07-24" #guess because of overlapping
-decommission_date = "2023-07-24" #guess because of overlapping
+installation_date = "2022-07-24" # inferred from overlapping RH/T cloud structures
+decommission_date = "2023-07-24" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"
 
 [[sensor]]
 name = "instrument_1f"
-installation_date = "2023-07-24" #guess because of overlapping
-decommission_date = "2024-07-24" #guess because of overlapping
+installation_date = "2023-07-24" # inferred from overlapping RH/T cloud structures
+decommission_date = "2024-07-24" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"
 
 [[sensor]]
 name = "instrument_1g"
-installation_date = "2024-07-24" #guess because of overlapping
-decommission_date = "2025-07-24" #guess because of overlapping
+installation_date = "2024-07-24" # inferred from overlapping RH/T cloud structures
+decommission_date = "2025-07-24" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"
 
 [[sensor]]
 name = "instrument_1h"
-installation_date = "2025-07-24" #guess because of overlapping
+installation_date = "2025-07-24" # inferred from overlapping RH/T cloud structures
 decommission_date = "NA"
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN1_hour.csv"
-parsing_confidence = "reviewed_and_verified"
+parsing_confidence = "cloud_plot_inferred_review_required"

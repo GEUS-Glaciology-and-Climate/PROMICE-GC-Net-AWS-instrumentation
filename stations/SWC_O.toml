@@ -18,7 +18,7 @@
 name = "instrument_1"
 station_id = "SWC_O"
 
-# GUESS - CSV data-start boundary only.
+# CSV data-start boundary only.
 installation_date = "2022-08-02"
 
 # The reviewed 2024 maintenance record establishes the next

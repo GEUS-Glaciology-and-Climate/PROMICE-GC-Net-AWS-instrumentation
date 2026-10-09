@@ -4,45 +4,47 @@
 # - CEN2_2022.pdf
 # - CEN2_2026.pdf
 #
-# The currently available CEN2 instrumentation record identifies RH
-# instrument periods beginning in 2022 and 2026. However, the exact
-# maintenance visit dates are not confirmed in the available record.
+# The available maintenance records provide information about the
+# CEN2 RH instrumentation, but some exact instrument boundaries
+# could not be confirmed from the maintenance records.
 #
-# The existing TOML used 2022-07-01 and 2026-07-01 as filename-year
-# fallback dates and explicitly flagged both dates for review.
-# Therefore, these dates should not be treated as confirmed RH
-# instrument boundaries until the maintenance sheets are verified.
+# Additional boundaries were introduced based on overlapping
+# structures observed in the RH-versus-temperature cloud plots.
+# These plot-derived boundaries are analytical boundaries and
+# should not be interpreted as confirmed physical instrument changes.
 
 
 [[sensor]]
 name = "instrument_1"
-installation_date = "2022-07-01" 
-decommission_date = "2023-07-01" #guess because of overlaping
+installation_date = "2022-07-01"
+decommission_date = "2023-07-01" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN2_2022.pdf"
-date_confidence = "low - filename year only; exact visit date unresolved"
-boundary_reason = "Instrument period derived from CEN2_2022 maintenance record;"
+date_confidence = "installation_filename_year_only_review_required; decommission_cloud_plot_inferred_review_required"
+boundary_reason = "Installation uses a filename-year fallback; decommission boundary inferred from overlapping RH/T cloud structures and not confirmed as a physical instrument change"
+
 
 [[sensor]]
 name = "instrument_1a"
-installation_date = "2023-07-01" #guess because of overlaping
-decommission_date = "2024-07-01" #guess because of overlaping
+installation_date = "2023-07-01" # inferred from overlapping RH/T cloud structures
+decommission_date = "2024-07-01" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN2_2022.pdf"
-date_confidence = "low - filename year only; exact visit date unresolved"
-boundary_reason = "Instrument period derived from CEN2_2022 maintenance record;"
+date_confidence = "cloud_plot_inferred_review_required"
+boundary_reason = "Analytical period inferred from overlapping RH/T cloud structures; not confirmed as a physical instrument change by the maintenance record"
+
 
 [[sensor]]
 name = "instrument_1b"
-installation_date = "2024-07-01"  #guess because of overlaping
-decommission_date = "2026-06-09"  #guess because of overlaping
+installation_date = "2024-07-01" # inferred from overlapping RH/T cloud structures
+decommission_date = "2026-06-09" # inferred from overlapping RH/T cloud structures
 instrument_type = "NA"
 serial_number = "NA"
 source_file = "CEN2_2022.pdf"
-date_confidence = "low - filename year only; exact visit date unresolved"
-boundary_reason = "Instrument period derived from CEN2_2022 maintenance record;"
+date_confidence = "cloud_plot_inferred_review_required"
+boundary_reason = "Analytical period inferred from overlapping RH/T cloud structures; not confirmed as a physical instrument change by the maintenance record"
 
 
 [[sensor]]
@@ -52,5 +54,5 @@ decommission_date = "NA"
 instrument_type = "Vaisala"
 serial_number = "NA"
 source_file = "CEN2_2026.pdf"
-date_confidence = "low - filename year only; exact visit date unresolved"
-boundary_reason = "Vaisala instrument period recorded from CEN2_2026 maintenance record;"
+date_confidence = "review_required"
+boundary_reason = "Vaisala instrument period associated with the CEN2_2026 maintenance record; exact boundary requires confirmation"
